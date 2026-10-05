@@ -1,6 +1,7 @@
 /**
  * Omar Nour — Personal Professional Portfolio
- * Plain, direct, human copy without AI clichés or buzzwords.
+ * Core Positioning: Operations Manager with a Software Engineering Background,
+ * building toward Technical Project Management.
  */
 
 const translations = {
@@ -13,187 +14,225 @@ const translations = {
     navSpotix: "Spotix Case Study",
     navExperience: "Experience",
     navEducation: "Education",
+    navDirection: "Career Direction",
     navContact: "Contact",
 
     // Hero Section
     heroTitle: "Omar Nour",
-    heroSubtitle: "Software Engineer",
+    heroSubtitle: "Operations Manager",
+    heroBadgeTech: "Software Engineering Background",
     heroHeadline: "Building Systems. Managing Operations. Solving Problems.",
-    heroParagraph: "I build digital tools, organize business operations, and work with teams to turn practical problems into clear, working systems.",
+    heroParagraph: "I am an Operations Manager with a Software Engineering background. I focus on managing operations, organizing workflows, and leading teams, using my software background to understand technical systems and communicate effectively with developers.",
     btnExplore: "Explore My Work",
     btnContact: "Contact Me",
     btnCV: "Download CV",
 
     // About Me Section
     aboutSectionTitle: "About Me",
-    aboutTagline: "Software Engineer with hands-on experience in operations and management",
-    aboutP1: "I have built experience across operations, project management, business management, logistics, team management, process development, and software development.",
-    aboutP2: "Over time, I became interested in the connection between technology and business operations. Today, I work on both sides: writing code and building digital tools, as well as managing operations, organizing daily workflows, leading teams, and designing clear rules so the business stays organized.",
-    aboutP3: "My long-term direction is Technical Project Management—combining Software Engineering, Operations, and Management.",
+    aboutTagline: "Operations Manager with a Software Engineering background, building toward Technical Project Management",
+    aboutP1: "I work primarily in Operations Management. Over time, I built practical experience across managing operations, teams, logistics, sales operations, process development, business management, and software development.",
+    aboutP2: "My software engineering background gives me an understanding of how code is written, how software projects are built, and how technical teams operate. This helps me bridge daily business execution with technical requirements.",
+    aboutP3: "I am currently growing as an Operations Manager while developing stronger Project Management knowledge. My long-term direction is Technical Project Management—where I can understand business needs, communicate with developers, and help manage project execution from requirements to delivery.",
 
-    // What I Do Section
+    aboutBadge1Title: "Primary Focus",
+    aboutBadge1Val: "Operations Management",
+    aboutBadge2Title: "Technical Background",
+    aboutBadge2Val: "Software Engineering",
+    aboutBadge3Title: "Current Growth",
+    aboutBadge3Val: "Project Management",
+    aboutBadge4Title: "Long-Term Direction",
+    aboutBadge4Val: "Technical Project Management",
+
+    // What I Do Section (4 Pillars in Hierarchy)
     whatIDoTitle: "What I Do",
-    whatIDoSubtitle: "Practical capabilities across software, operations, and business systems",
+    whatIDoSubtitle: "My primary focus is Operations Management, supported by a software engineering background and ongoing development in project management.",
 
-    pillar1Title: "Software Engineering",
-    pillar1Desc: "Building clean websites, responsive user interfaces, and web applications.",
-    pillar1Item1: "HTML, CSS, JavaScript",
-    pillar1Item2: "React",
-    pillar1Item3: "Bootstrap & Tailwind CSS",
-    pillar1Item4: "WordPress",
-    pillar1Item5: "Git & GitHub",
-    pillar1Item6: "Testing & Responsive Design",
+    // Pillar 1: Operations Management (Primary Focus)
+    pillar1Title: "Operations Management",
+    pillar1Badge: "Primary Focus",
+    pillar1Desc: "Managing day-to-day operations, setting up processes, and keeping work moving.",
+    pillar1Item1: "People Management & Team Leadership",
+    pillar1Item2: "KPI Systems & Performance Follow-up",
+    pillar1Item3: "Process Development & SOP Rules",
+    pillar1Item4: "Operational Decision Making",
+    pillar1Item5: "Sales Operations",
+    pillar1Item6: "Logistics & Procurement",
+    pillar1Item7: "Operational Problem Solving",
 
-    pillar2Title: "Operations & Management",
-    pillar2Desc: "Organizing business operations, managing people, and setting up practical processes.",
-    pillar2Item1: "Operations Management",
-    pillar2Item2: "People & Team Management",
-    pillar2Item3: "KPI Systems",
-    pillar2Item4: "Process Development",
-    pillar2Item5: "Project Management & Sales Operations",
-    pillar2Item6: "Logistics & Procurement",
+    // Pillar 2: Business & Management
+    pillar2Title: "Business & Management",
+    pillar2Badge: "Management",
+    pillar2Desc: "Understanding business needs, managing resources, and developing team leaders.",
+    pillar2Item1: "Business Operations & Management",
+    pillar2Item2: "Developing Managers & Team Leaders",
+    pillar2Item3: "Customer Handling & Issue Resolution",
+    pillar2Item4: "Workflow & Process Improvement",
+    pillar2Item5: "Operational Systems & Procedures",
 
-    pillar3Title: "Systems & Automation",
-    pillar3Desc: "Using software to solve operational problems and automate manual tasks.",
-    pillar3Item1: "Business Systems",
-    pillar3Item2: "Workflow Design & Internal Tools",
-    pillar3Item3: "Employee Records & Attendance Systems",
-    pillar3Item4: "Shift & Work Schedule Rules",
-    pillar3Item5: "Process Automation & Documentation",
-    pillar3Item6: "Operational Tracking & Follow-up",
+    // Pillar 3: Software Engineering Background
+    pillar3Title: "Software Engineering Background",
+    pillar3Badge: "Technical Foundation",
+    pillar3Desc: "Technical foundation that helps me understand software projects and communicate with developers.",
+    pillar3Item1: "HTML, CSS & JavaScript",
+    pillar3Item2: "React & Front-End Concepts",
+    pillar3Item3: "Bootstrap & Tailwind CSS",
+    pillar3Item4: "WordPress",
+    pillar3Item5: "Git & GitHub Workflows",
+    pillar3Item6: "Testing & Web Layouts",
+    pillar3Item7: "Technical Communication with Developers",
+
+    // Pillar 4: Project Management Development
+    pillar4Title: "Project Management Development",
+    pillar4Badge: "Current Development",
+    pillar4Desc: "Currently developing knowledge and practical skills in project management.",
+    pillar4Item1: "Project Management Concepts",
+    pillar4Item2: "Project Coordination & Task Follow-up",
+    pillar4Item3: "Agile & Scrum Basics",
+    pillar4Item4: "User Stories & Requirement Breakdown",
+    pillar4Item5: "Working with Technical Teams",
+    pillar4Item6: "Project Execution Tracking",
 
     // Selected Projects Section
     projectsTitle: "Selected Projects",
-    projectsSubtitle: "Real-world client websites and internal business automation tools",
+    projectsSubtitle: "Real-world web projects and internal operational tools",
 
-    proj1Category: "Client Project — Doctor Website",
+    proj1Category: "Client Web Project",
     proj1Title: "Dr. Mohamed Elshawaf Website",
-    proj1Desc: "A professional website created for Dr. Mohamed Elshawaf, a doctor in Egypt and Libya specializing in allergy, sinus problems, and related conditions. It presents his professional background, medical services, and patient information.",
+    proj1Desc: "A professional website created for Dr. Mohamed Elshawaf, a doctor in Egypt and Libya specializing in allergy and sinus care. It presents his services and clinic information.",
+    proj1DidLabel: "What I Did:",
+    proj1Did: "Handled the front-end development, content layout, and responsive mobile design.",
+    proj1LearnedLabel: "What I Learned:",
+    proj1Learned: "Gained experience gathering requirements directly from a medical professional, organizing complex clinical information, and delivering a clean, functional site.",
 
-    proj2Category: "Client Project — Company Website",
+    proj2Category: "Client Web Project",
     proj2Title: "SIMAH Website",
-    proj2Desc: "A website project created for SIMAH to present their company services, identity, and contact information online.",
+    proj2Desc: "A corporate website built for SIMAH to present their company services, business information, and contact channels online.",
+    proj2DidLabel: "What I Did:",
+    proj2Did: "Developed the responsive layout, site structure, and client contact integration.",
+    proj2LearnedLabel: "What I Learned:",
+    proj2Learned: "Learned how to align web page design with corporate brand identity and deliver a clear online presentation.",
 
-    proj3Category: "Internal Business System — Operational Tool",
+    proj3Category: "Internal Business System — Operations Automation",
     proj3Title: "CourseTopia Employee & Attendance System",
-    proj3Desc: "An internal system built using Google Apps Script to manage employee information and attendance. It handles employee records, work schedules, permission and leave requests, late-arrival rules, and individual attendance requirements.",
-    proj3Highlight: "This project demonstrates the practical connection between Technology + Operations + Management.",
+    proj3Desc: "An internal system built using Google Apps Script to manage employee information and office attendance.",
+    proj3DidLabel: "What I Did:",
+    proj3Did: "Programmed the system using Google Apps Script to handle employee records, individualized work schedules, leave/permission requests, late-arrival rules, and attendance requirements.",
+    proj3LearnedLabel: "What I Learned:",
+    proj3Learned: "Demonstrated how software can solve complex operational problems. I learned how to translate organizational attendance rules into clean automated logic that reduces manual management overhead.",
 
     btnViewProject: "View Project",
     btnOpenSystem: "Open System",
     btnGitHubMore: "View More Projects on GitHub",
 
     // Spotix Case Study
-    spotixTag: "Featured Work",
+    spotixTag: "Featured Operations Experience",
     spotixTitle: "Operations & Management — Spotix",
     spotixPeriod: "May 2026 – Present",
-    spotixRoleDesc: "I handle broad company-wide operational responsibilities and final decision-making across the business.",
+    spotixRoleDesc: "Executive operational management with company-wide decision-making responsibilities across all departments.",
 
     spotixDeptsTitle: "Scope of Responsibilities",
-    spotixDeptsDesc: "Moderation, marketing coordination, design operations, sales, procurement, production, cutting, workshop operations, engraving, finishing and pressing, shipping, logistics, HR, team management, KPI development, and process development.",
+    spotixDeptsDesc: "Moderation, marketing coordination, design operations, sales, procurement, production (cutting, workshop, engraving, finishing, pressing), shipping, logistics, HR, team management, KPI development, and process development.",
 
     spotixApproachTitle: "Management Approach & Problem Solving",
-    spotixApproachP1: "When a problem happens, I do not just solve it myself. I listen to the team, understand the root cause, consider the customer's perspective, set a clear rule or process, train the responsible person, delegate the task, and follow up until the process stays stable.",
-    spotixApproachP2: "The goal is to build a company that does not depend on one person for every decision. I have been developing department leaders so they can solve problems independently. I also research machine issues and document operational information so technical problems can be fixed faster without always waiting for external maintenance.",
+    spotixApproachP1: "When an operational issue occurs, I understand the root cause, listen to the team, consider customer needs, write a clear process rule, train the responsible person, delegate authority, and follow up until the process becomes stable.",
+    spotixApproachP2: "The goal is to build an operation that does not depend on one person for every decision. I develop department leaders so they can handle issues independently. I also research machine problems and document operational manuals so the team can troubleshoot technical issues faster without waiting for external maintenance.",
 
-    spotixImpactTitle: "What Has Been Achieved",
-    spotixImpactItem1: "Expanded team structure and added new functional departments.",
-    spotixImpactItem2: "Introduced clearer responsibilities and KPI-based accountability.",
-    spotixImpactItem3: "Improved internal workflows between sales, production, workshop, and shipping.",
-    spotixImpactItem4: "Developed department leadership and reduced dependency on direct management intervention.",
-    spotixImpactItem5: "Helped accelerate sales and production workflows, contributing to business growth.",
+    spotixImpactTitle: "Key Operational Contributions",
+    spotixImpactItem1: "Expanded overall team structure and added new functional departments.",
+    spotixImpactItem2: "Built KPI-based accountability frameworks with clear departmental responsibilities.",
+    spotixImpactItem3: "Improved cross-departmental coordination between sales, production, workshop, and shipping.",
+    spotixImpactItem4: "Developed department leaders, reducing dependency on direct management intervention.",
+    spotixImpactItem5: "Accelerated sales-to-production workflows, helping drive business growth.",
 
     // Career Timeline
     expTitle: "Career Experience",
-    expSubtitle: "Complete timeline from newest to oldest",
+    expSubtitle: "Complete timeline from newest to oldest showing responsibilities and key takeaways",
+    labelDid: "What I Did:",
+    labelLearned: "What I Learned:",
 
     // 1. Spotix
     exp1Role: "Operations & Management",
     exp1Company: "Spotix",
     exp1Date: "May 2026 – Present",
-    exp1Point1: "Company-wide operations, people management, process development, sales operations, production, logistics, procurement, HR, KPIs, and final decision-making.",
-    exp1Point2: "Managing multiple teams across moderation, design, sales, workshop, cutting, and shipping.",
-    exp1Point3: "Building clear operational rules and developing department leaders.",
+    exp1Did: "Company-wide operations, people management, process development, sales operations, production, logistics, procurement, HR, KPIs, and decision-making across moderation, design, sales, workshop, cutting, and shipping.",
+    exp1Learned: "Taught me how to build self-sustaining teams, establish SOPs, develop department leaders, and manage broad multi-departmental operations.",
 
     // 2. Porto Group
     exp2Role: "Manager",
     exp2Company: "Porto Group — Qena",
     exp2Date: "January 2026 – May 2026",
-    exp2Point1: "Managing workers, accounts, monthly closing, and tax account closing.",
-    exp2Point2: "Recruiting and providing suitable workers for site operations.",
-    exp2Point3: "General administrative, operational management, and problem solving.",
+    exp2Did: "Managing site workers, monthly financial closing, tax account closing, worker recruitment, and general administrative operations.",
+    exp2Learned: "Taught me how to handle site-level workforce management, monthly financial closings, and resolve operational problems under pressure.",
 
     // 3. 4Geeks
     exp3Role: "Project Manager",
     exp3Company: "4Geeks",
     exp3Date: "July 2025 – December 2025",
-    exp3Point1: "Managed academy operations and worked on improving its financial and operational performance.",
-    exp3Point2: "Restructured operations, reduced unnecessary costs, improved staffing, and managed work schedules.",
-    exp3Point3: "Helped move the academy from a monthly loss to a monthly profit during my time there.",
+    exp3Did: "Managed academy operations, restructured workflows, reduced unnecessary costs, improved staffing schedules, and followed up on daily execution.",
+    exp3Learned: "Taught me how operational restructuring, cost control, and proper schedule management can turn an operational deficit into monthly profitability.",
 
     // 4. Creativa / Ather
     exp4Role: "Assistant Project & Event Coordinator",
     exp4Company: "Creativa / Ather",
     exp4Date: "2024 – 2025",
-    exp4Point1: "Coordinated training events, supported instructors and trainees, organized logistics, and coordinated teams.",
-    exp4Point2: "Worked as Intern Project Coordinator during Dev Arena activities, coordinating tracks, schedules, participants, instructors, logistics, and final reporting.",
-    exp4Point3: "Built simple websites when needed to support events.",
+    exp4Did: "Coordinated training events, supported instructors/trainees, organized logistics, managed Dev Arena tracks/schedules/reports, and built simple web tools when needed.",
+    exp4Learned: "Taught me how to organize multi-track events, coordinate instructors and participants, manage event logistics, and keep complex schedules moving toward a deadline.",
 
     // 5. Kellogg's Noodles
     exp5Role: "Marketing Agent",
     exp5Company: "Kellogg's Noodles Egypt",
     exp5Date: "November 2024 – January 2025",
-    exp5Point1: "Worked in outdoor sales and field marketing across villages and centers in Minya governorate.",
-    exp5Point2: "Supervised sales representatives and supported representatives in the field.",
-    exp5Point3: "Followed up on customer issues and supported promotional activities.",
+    exp5Did: "Outdoor sales and field marketing across Minya governorate, supervised sales reps, supported field campaigns, and resolved customer issues.",
+    exp5Learned: "Taught me field-level sales operations, how field teams work on the ground, and how to handle customer problems directly.",
 
     // 6. FabriGate
     exp6Role: "Purchasing Manager / Logistics Officer",
     exp6Company: "FabriGate",
     exp6Date: "2024",
-    exp6Point1: "Purchasing, vendor sourcing, price negotiation, and delivery tracking.",
-    exp6Point2: "Route planning and logistics coordination.",
+    exp6Did: "Procurement, vendor sourcing, price negotiation, delivery tracking, route planning, and logistics coordination.",
+    exp6Learned: "Taught me the fundamentals of supply chain, vendor negotiation, shipment tracking, and delivery route planning.",
 
     // 7. Military Production
     exp7Role: "Purchasing Manager / Site Supervisor",
     exp7Company: "Military Production / Water Authority",
     exp7Date: "2023 – 2024",
-    exp7Point1: "Material procurement and contractor follow-up.",
-    exp7Point2: "Site progress monitoring and solving daily operational problems.",
-    exp7Point3: "Coordinating resources and reporting progress to engineers.",
+    exp7Did: "Site procurement, contractor supervision, progress monitoring, daily problem solving, and reporting to engineers.",
+    exp7Learned: "Taught me how to monitor site progress, manage contractor relationships, and report operational status clearly to engineering leadership.",
 
     // 8. SES Solar Energy
     exp8Role: "Assistant Field Coordinator",
     exp8Company: "SES Solar Energy",
     exp8Date: "2023",
-    exp8Point1: "Supervised solar installation teams and followed up on daily tasks.",
-    exp8Point2: "Coordinated site visits, prepared tools and materials, and reported delays.",
+    exp8Did: "Supervised solar installation teams, tracked daily field tasks, coordinated site visits, prepared equipment, and reported operational delays.",
+    exp8Learned: "Taught me how technical field installations work, how to coordinate installation teams, and how to resolve site delays proactively.",
 
     // 9. Nile Petroleum
     exp9Role: "Assistant Account Manager",
     exp9Company: "Nile Petroleum",
     exp9Date: "2023",
-    exp9Point1: "Followed up on fuel station operations, payment collection, and bank deposits.",
-    exp9Point2: "Coordinated fuel trucks and daily operational follow-up.",
+    exp9Did: "Monitored fuel station daily operations, payment collections, bank deposits, fuel truck dispatching, and daily operational logging.",
+    exp9Learned: "Taught me strict daily operational tracking, payment handling routines, and fuel logistics coordination.",
 
     // 10. Yu-Gi Café
     exp10Role: "Business / Administrative Manager",
     exp10Company: "Yu-Gi Café",
     exp10Date: "August 2022 – August 2023",
-    exp10Point1: "Managed the family business administratively and handled day-to-day operations.",
-    exp10Point2: "Handled staff, inventory, suppliers, cash flow, and daily customer management.",
+    exp10Did: "Managed administrative and practical day-to-day operations for a family business, including staff, inventory, supplier relations, and cash transactions.",
+    exp10Learned: "Taught me hands-on business management, staff supervision, inventory control, and customer service execution.",
 
     // 11. Cosmetics Business
     exp11Role: "Business Manager",
     exp11Company: "Cosmetics & Perfume Business",
     exp11Date: "2021 – 2022",
-    exp11Point1: "Managed a cosmetics and perfume business and handled its day-to-day operations.",
+    exp11Did: "Managed day-to-day operations, product procurement, sales, and customer service for a cosmetics and perfume business.",
+    exp11Learned: "Taught me basic commercial operations, purchasing, sales management, and customer handling.",
 
     // 12. Front-End Training
     exp12Role: "Front-End Intern / Trainee",
     exp12Company: "Ather / EraaSoft",
     exp12Date: "2021 – 2022",
-    exp12Point1: "Training in HTML, CSS, JavaScript, Bootstrap, React, and responsive design.",
+    exp12Did: "Practical training in HTML, CSS, JavaScript, Bootstrap, React, Git, and responsive web design.",
+    exp12Learned: "Gave me a real foundation in software engineering, technical code structure, web technologies, and how developers build applications.",
 
     // Education & Training
     eduTitle: "Education & Professional Training",
@@ -203,23 +242,33 @@ const translations = {
     eduDegreeInst: "Higher Institute of Technology",
     eduDegreeStatus: "Completed Degree",
 
-    train1Title: "Web Development",
+    train1Title: "Web Development Specialist",
     train1Inst: "National Telecommunication Institute (NTI)",
     train1Status: "Completed Training",
 
-    train2Title: "Summer Training",
+    train2Title: "Summer Technology Program",
     train2Inst: "Information Technology Institute (ITI)",
     train2Status: "Completed Training",
 
-    train3Title: "Front-End / React",
-    train3Inst: "EraaSoft",
+    train3Title: "Front-End & React",
+    train3Inst: "EraaSoft Academy",
     train3Status: "Completed Training",
 
-    // Professional Direction
-    dirTitle: "Professional Direction",
-    dirHeadline: "Technical Project Management",
-    dirP1: "My long-term goal is to grow into a Technical Project Manager who can understand both the technical side of software and the operational side of business.",
-    dirP2: "I want to combine Software Engineering, Operations, Management, and Project Management to help teams build practical systems that actually work for the business.",
+    // Career Direction Section
+    dirTitle: "Career Direction",
+    dirSubtitle: "Natural professional progression from Operations toward Technical Project Management",
+
+    dirStep1Tag: "Current Focus",
+    dirStep1Title: "Where I Am Now",
+    dirStep1Desc: "Operations Management — managing teams, setting up processes, tracking KPIs, handling logistics, and making operational decisions on the ground.",
+
+    dirStep2Tag: "Current Growth",
+    dirStep2Title: "What I Am Building",
+    dirStep2Desc: "Project Management Knowledge — deepening skills in project coordination, task tracking, Agile/Scrum concepts, User Stories, and working with technical teams.",
+
+    dirStep3Tag: "Long-Term Goal",
+    dirStep3Title: "Where I Am Going",
+    dirStep3Desc: "Technical Project Management — bridging business needs and technical teams, translating requirements, and managing project execution from start to finish.",
 
     // Contact
     contactTitle: "Contact Me",
@@ -242,54 +291,83 @@ const translations = {
     navSpotix: "تجربة Spotix",
     navExperience: "الخبرات",
     navEducation: "التعليم",
+    navDirection: "التوجّه المهني",
     navContact: "التواصل",
 
     // Hero Section
     heroTitle: "عمر نور",
-    heroSubtitle: "مهندس برمجيات",
+    heroSubtitle: "إداري عمليات (Operations Manager)",
+    heroBadgeTech: "خلفية في هندسة البرمجيات",
     heroHeadline: "بناء الأنظمة. إدارة العمليات. حل المشكلات.",
-    heroParagraph: "أقوم ببناء الحلول الرقمية، وتحسين العمليات التجارية، وإدارة الأفراد والعمليات لتحويل المشكلات إلى أنظمة عملية.",
+    heroParagraph: "أنا إداري عمليات بخلفية في هندسة البرمجيات. أركز على إدارة العمليات وتنظيم مسارات العمل وقيادة الفرق، مستفيداً من خلفيتي البرمجية لفهم الأنظمة التقنية والتواصل الفعّال مع المطورين.",
     btnExplore: "استكشف أعمالي",
     btnContact: "تواصل معي",
     btnCV: "تحميل السيرة الذاتية",
 
     // About Me Section
     aboutSectionTitle: "عن عمر نور",
-    aboutTagline: "مهندس برمجيات بخبرة عملية في إدارة العمليات والأفراد",
-    aboutP1: "بنيت خبرتي العملية عبر مجالات متعددة شملت: إدارة العمليات، إدارة المشروعات، إدارة الأعمال، اللوجستيات، إدارة الأفراد، تطوير الإجراءات، وتطوير البرمجيات.",
-    aboutP2: "مع الوقت، زاد اهتمامي بالربط بين التكنولوجيا والعمليات التجارية. اليوم أعمل على الجانبين: بناء البرمجيات والأنظمة الرقمية، وإدارة العمليات وتنظيم مسارات العمل وقيادة الفرق وتصميم القواعد والإجراءات لضمان تنظيم العمل وقابليته للتوسع.",
-    aboutP3: "توجّهي المهني المستقبلي هو إدارة المشروعات التقنية (Technical Project Management)، للجمع بين تطوير البرمجيات، إدارة العمليات، وإدارة الأفراد.",
+    aboutTagline: "إداري عمليات بخلفية في هندسة البرمجيات، يتطور نحو إدارة المشروعات التقنية",
+    aboutP1: "أعمل بشكل أساسي في مجال إدارة العمليات (Operations Management). بنيت خبرتي العملية عبر إدارة العمليات، الأفراد، اللوجستيات، عمليات المبيعات، تطوير الإجراءات، إدارة الأعمال، وتطوير البرمجيات.",
+    aboutP2: "تمنحني خلفيتي في هندسة البرمجيات فهماً حقيقياً لكيفية كتابة الكود وبناء المشاريع البرمجية وطبيعة عمل الفرق التقنية. يساعدني ذلك في الربط بين التنفيذ التشغيلي اليومي والمتطلبات التقنية.",
+    aboutP3: "أعمل حالياً على النمو كـ Operations Manager بالتوازي مع تطوير معرفتي بإدارة المشروعات. توجّهي المستقبلي هو إدارة المشروعات التقنية (Technical Project Management)—حيث يمكنني فهم متطلبات الأعمال، والتواصل مع المطورين، ومتابعة تنفيذ المشروعات من مرحلة المتطلبات حتى التسليم.",
 
-    // What I Do Section
+    aboutBadge1Title: "التركيز الحالي",
+    aboutBadge1Val: "إدارة العمليات (Operations)",
+    aboutBadge2Title: "الخلفية التقنية",
+    aboutBadge2Val: "هندسة البرمجيات",
+    aboutBadge3Title: "التطوير الحالي",
+    aboutBadge3Val: "إدارة المشروعات",
+    aboutBadge4Title: "التوجه المستقبلي",
+    aboutBadge4Val: "إدارة المشروعات التقنية",
+
+    // What I Do Section (4 Pillars in Hierarchy)
     whatIDoTitle: "ماذا أفعل؟",
-    whatIDoSubtitle: "قدرات عملية في البرمجيات والعمليات وأنظمة الأعمال",
+    whatIDoSubtitle: "تركيزي الأساسي هو إدارة العمليات، مدعوماً بخلفية في هندسة البرمجيات وتطوير مستمر في إدارة المشروعات.",
 
-    pillar1Title: "هندسة البرمجيات",
-    pillar1Desc: "بناء المواقع الإلكترونية، واجهات المستخدم المتجاوبة، وتطبيقات الويب.",
-    pillar1Item1: "HTML, CSS, JavaScript",
-    pillar1Item2: "React",
-    pillar1Item3: "Bootstrap & Tailwind CSS",
-    pillar1Item4: "WordPress",
-    pillar1Item5: "Git & GitHub",
-    pillar1Item6: "الاختبار والتصميم المتجاوب",
+    // Pillar 1: Operations Management (Primary Focus)
+    pillar1Title: "إدارة العمليات (Operations Management)",
+    pillar1Badge: "التركيز الأساسي",
+    pillar1Desc: "إدارة التشغيل اليومي، تصميم مسارات العمل، وضمان استمرارية الإنجاز.",
+    pillar1Item1: "إدارة الأفراد وقيادة الفرق",
+    pillar1Item2: "أنظمة ومؤشرات الأداء (KPIs)",
+    pillar1Item3: "تطوير مسارات وإجراءات العمل (SOPs)",
+    pillar1Item4: "اتخاذ القرارات التشغيلية",
+    pillar1Item5: "إدارة عمليات المبيعات",
+    pillar1Item6: "اللوجستيات والمشتريات",
+    pillar1Item7: "حل المشكلات التشغيلية",
 
-    pillar2Title: "إدارة العمليات والأفراد",
-    pillar2Desc: "تنظيم العمليات التجارية، إدارة فريق العمل، وتطوير إجراءات العمل.",
-    pillar2Item1: "إدارة العمليات (Operations Management)",
-    pillar2Item2: "إدارة الأفراد والفرق (People Management)",
-    pillar2Item3: "أنظمة ومؤشرات الأداء (KPI Systems)",
-    pillar2Item4: "تطوير مسارات وإجراءات العمل (Process Development)",
-    pillar2Item5: "إدارة المشروعات وعمليات المبيعات",
-    pillar2Item6: "اللوجستيات والمشتريات (Procurement)",
+    // Pillar 2: Business & Management
+    pillar2Title: "إدارة الأعمال والفرق",
+    pillar2Badge: "الإدارة",
+    pillar2Desc: "فهم احتياجات الأعمال، إدارة الموارد، وتطوير قادة الأقسام.",
+    pillar2Item1: "إدارة الأعمال والعمليات التجارية",
+    pillar2Item2: "تطوير المديرين وقادة الفرق",
+    pillar2Item3: "إدارة مشكلات العملاء والحلول",
+    pillar2Item4: "تحسين وتطوير مسارات العمل",
+    pillar2Item5: "بناء الأنظمة والإجراءات التشغيلية",
 
-    pillar3Title: "الأنظمة والأتمتة",
-    pillar3Desc: "استخدام التكنولوجيا لحل المشكلات التشغيلية وأتمتة المهام اليدوية.",
-    pillar3Item1: "أنظمة الأعمال (Business Systems)",
-    pillar3Item2: "تصميم مسارات العمل والأدوات الداخلية",
-    pillar3Item3: "أنظمة بيانات الموظفين ومتابعة الحضور",
-    pillar3Item4: "قواعد جداول العمل والشيفتات المختلفة",
-    pillar3Item5: "أتمتة الإجراءات والتوثيق التشغيلي",
-    pillar3Item6: "متابعة الأداء التشغيلي والتقارير",
+    // Pillar 3: Software Engineering Background
+    pillar3Title: "خلفية هندسة البرمجيات",
+    pillar3Badge: "الأساس التقني",
+    pillar3Desc: "أساس تقني يتيح لي فهم المشاريع البرمجية والتواصل الفعّال مع المطورين.",
+    pillar3Item1: "HTML, CSS & JavaScript",
+    pillar3Item2: "React ومفاهيم تطوير الواجهات",
+    pillar3Item3: "أطر العمل Bootstrap & Tailwind",
+    pillar3Item4: "إدارة وتطوير WordPress",
+    pillar3Item5: "مسارات العمل عبر Git & GitHub",
+    pillar3Item6: "الاختبار والتصميم المتجاوب",
+    pillar3Item7: "التواصل التقني مع فرق التطوير",
+
+    // Pillar 4: Project Management Development
+    pillar4Title: "تطوير إدارة المشروعات",
+    pillar4Badge: "تطوير حالي",
+    pillar4Desc: "أعمل حالياً على تطوير معرفتي ومهاراتي العملية في إدارة المشروعات.",
+    pillar4Item1: "مفاهيم إدارة المشروعات",
+    pillar4Item2: "تنسيق المشروعات ومتابعة المهام",
+    pillar4Item3: "أساسيات Agile & Scrum",
+    pillar4Item4: "كتابة User Stories وتحليل المتطلبات",
+    pillar4Item5: "العمل مع الفرق التقنية",
+    pillar4Item6: "متابعة تنفيذ المشروعات",
 
     // Selected Projects Section
     projectsTitle: "المشاريع المختارة",
@@ -297,132 +375,141 @@ const translations = {
 
     proj1Category: "مشروع عميل — موقع طبي",
     proj1Title: "موقع د. محمد الشواف",
-    proj1Desc: "موقع إلكتروني احترافي تم إنشاؤه للدكتور محمد الشواف، طبيب متخصص في أمراض الحساسية والأنف والأذن والحنجرة بمصر وليبيا. يعرض مؤهلاته الطبيّة والخدمات التي يقدمها وإرشادات المرضى.",
+    proj1Desc: "موقع إلكتروني احترافي تم إنشاؤه للدكتور محمد الشواف، طبيب متخصص في أمراض الحساسية والأنف والأذن والحنجرة بمصر وليبيا.",
+    proj1DidLabel: "ما قمت به:",
+    proj1Did: "تطوير واجهة الموقع، تنظيم المحتوى، وضمان تجربة استخدام مرنة ومتجاوبة مع الهواتف.",
+    proj1LearnedLabel: "ما تعلمته:",
+    proj1Learned: "كتسبت خبرة في جمع المتطلبات مباشرة من طبيب متخصص، تنظيم المحتوى الطبي المعقد، وتنفيذ موقع عملي وسهل الاستخدام.",
 
     proj2Category: "مشروع عميل — موقع شركة",
     proj2Title: "موقع شركة سِمة (SIMAH)",
     proj2Desc: "مشروع موقع إلكتروني تم إنشاؤه لشركة سِمة لعرض خدمات الشركة وهويتها ومعلومات التواصل.",
+    proj2DidLabel: "ما قمت به:",
+    proj2Did: "تطوير هيكل الموقع والتصميم المتجاوب وتكامل قنوات التواصل.",
+    proj2LearnedLabel: "ما تعلمته:",
+    proj2Learned: "تعلمت كيفية مطابقة تصميم الموقع مع الهوية المؤسسية للشركة وتقديم عرض رقمي واضح للخدمات.",
 
     proj3Category: "نظام إداري داخلي — أتمتة عمليات",
     proj3Title: "نظام CourseTopia لإدارة الموظفين والحضور",
-    proj3Desc: "نظام إداري داخلي تم تطويره باستخدام Google Apps Script لإدارة بيانات الموظفين والحضور. يتناول جداول العمل المتنوعة لكل موظف، طلبات الإجازات والأذونات، سياسات التأخير، ومتطلبات الحضور للمكتب.",
-    proj3Highlight: "يوضح هذا المشروع الربط العملي بين التكنولوجيا + العمليات + الإدارة لحل مشكلة واقعية.",
+    proj3Desc: "نظام إداري داخلي تم تطويره باستخدام Google Apps Script لإدارة بيانات الموظفين والحضور.",
+    proj3DidLabel: "ما قمت به:",
+    proj3Did: "برمجة النظام بـ Google Apps Script لمعالجة سجّلات الموظفين، جداول العمل الفردية، الإجازات والأذونات، وسياسات التأخير.",
+    proj3LearnedLabel: "ما تعلمته:",
+    proj3Learned: "توضيح كيف يمكن للتكنولوجيا حل المشكلات التشغيلية المعقدة. تعلمت تحويل قواعد الحضور التنظيمية إلى منطق برمجي مؤتمت يقلل من العبء الإداري اليدوي.",
 
     btnViewProject: "عرض المشروع",
     btnOpenSystem: "فتح النظام",
     btnGitHubMore: "عرض المزيد من المشاريع على GitHub",
 
     // Spotix Case Study
-    spotixTag: "خبرة عملية حقيقية",
+    spotixTag: "خبرة تشغيلية رئيسية",
     spotixTitle: "إدارة العمليات — Spotix",
     spotixPeriod: "مايو 2026 – الحالي",
-    spotixRoleDesc: "أتولى مسؤوليات تشغيلية وإدارية شاملة على مستوى الشركة وأتخذ القرارات النهائية.",
+    spotixRoleDesc: "إدارة تشغيلية تنفيذية مع اتخاذ القرارات النهائية على مستوى كافة أقسام الشركة.",
 
     spotixDeptsTitle: "نطاق المسؤوليات",
-    spotixDeptsDesc: "الإشراف على والتنسيق بين أقسام: خدمة العملاء (Moderation)، التسويق، التصميم، المبيعات، المشتريات، الإنتاج، القص، الورشة، الحفر، التشطيب والكبس، الشحن، اللوجستيات، الموارد البشرية، وتطوير الأنظمة ومؤشرات الأداء.",
+    spotixDeptsDesc: "الإشراف والتنسيق بين أقسام: خدمة العملاء (Moderation)، التسويق، التصميم، المبيعات، المشتريات، الإنتاج (القص، الورشة، الحفر، التشطيب والكبس)، الشحن، اللوجستيات، الموارد البشرية، وتطوير الأنظمة.",
 
     spotixApproachTitle: "منهجية الإدارة وحل المشكلات",
-    spotixApproachP1: "عند حدوث مشكلة، لا أكتفي بحلها بنفسي مؤقتاً. أستمع للفريق، أفهم السبب الجذر، أراعي وجهة نظر العميل، أضع قاعدة أو إجراء عمل واضح، أدرّب الشخص المسؤول، أفوّض الصلاحيات، وأتابع حتى يستقر النظام.",
-    spotixApproachP2: "الهدف هو بناء شركة لا تعتمد على شخص واحد في كل قرار. أعمل على تطوير قادة الأقسام ليحلوا المشكلات بأنفسهم. كما أقوم ببحث أعطال الماكينات وتوثيق تشغيلها لتشخيص الأعطال وسرعة إصلاحها دون انتظار الصيانة الخارجية دائماً.",
+    spotixApproachP1: "عند حدوث مشكلة تشغيلية، أفهم السبب الجذر، أستمع للفريق، أراعي متطلبات العميل، أضع قاعدة عمل واضحة، أدرّب الشخص المسؤول، أفوّض الصلاحيات، وأتابع حتى يستقر النظام.",
+    spotixApproachP2: "الهدف هو بناء منظومة لا تعتمد على شخص واحد في كل قرار. أطور قادة الأقسام ليحلوا المشكلات بأنفسهم. كما أقوم ببحث أعطال الماكينات وتوثيق تشغيلها لتشخيص الأعطال وسرعة إصلاحها دون انتظار الصيانة الخارجية دائماً.",
 
-    spotixImpactTitle: "ما تم تحقيقه",
-    spotixImpactItem1: "توسيع هيكل الفريق واستحداث أقسام وظيفية جديدة.",
-    spotixImpactItem2: "تحديد المسؤوليات بوضوح وبناء نظام متابعة أداء قائم على الـ KPIs.",
-    spotixImpactItem3: "تحسين مسارات العمل بين المبيعات، الإنتاج، الورشة، والشحن.",
+    spotixImpactTitle: "إسهامات تشغيلية رئيسية",
+    spotixImpactItem1: "توسيع الهيكل التنظيمي واستحداث أقسام وظيفية جديدة.",
+    spotixImpactItem2: "بناء أنظمة قياس أداء (KPIs) محددة للمسؤوليات.",
+    spotixImpactItem3: "تحسين التنسيق بين المبيعات، الإنتاج، الورشة، والشحن.",
     spotixImpactItem4: "تطوير قادة الأقسام وتقليل الاعتماد على التدخل المباشر للإدارة.",
-    spotixImpactItem5: "المساهمة في تسريع عمليات المبيعات والإنتاج وتطوير الأعمال.",
+    spotixImpactItem5: "تسريع مسارات العمل من المبيعات إلى الإنتاج مما ساهم في نمو الأعمال.",
 
     // Career Timeline
     expTitle: "الخبرات المهنية",
-    expSubtitle: "التسلسل الزمني الكامل من الأحدث إلى الأقدم",
+    expSubtitle: "التسلسل الزمني الكامل للخبرات موضحاً المسؤوليات والدروس المستفادة",
+    labelDid: "ما قمت به:",
+    labelLearned: "ما تعلمته:",
 
     // 1. Spotix
     exp1Role: "إدارة العمليات والإدارة التنفيذية",
     exp1Company: "Spotix",
     exp1Date: "مايو 2026 – الحالي",
-    exp1Point1: "إدارة العمليات الشاملة، إدارة الأفراد، تطوير الإجراءات، المبيعات، الإنتاج، اللوجستيات، المشتريات، الموارد البشرية، الـ KPIs، واتخاذ القرارات النهائية.",
-    exp1Point2: "إدارة الفرق المتعددة بين التصميم، الورشة، القص، الشحن، وخدمة العملاء.",
-    exp1Point3: "بناء قواعد تشغيلية واضحة وتطوير قادة الأقسام.",
+    exp1Did: "إدارة العمليات الشاملة، إدارة الأفراد، تطوير الإجراءات، المبيعات، الإنتاج، اللوجستيات، المشتريات، الموارد البشرية، الـ KPIs، واتخاذ القرارات النهائية بين كافة الأقسام.",
+    exp1Learned: "علمتني هذه التجربة كيفية بناء فرق عمل مستقلة، وضع الإجراءات المعيارية (SOPs)، تطوير قادة الأقسام، وإدارة العمليات واسعة النطاق.",
 
     // 2. Porto Group
-    exp2Role: "مدير",
+    exp2Role: "مدير موقع",
     exp2Company: "Porto Group — قنا",
     exp2Date: "يناير 2026 – مايو 2026",
-    exp2Point1: "إدارة العمالة، الحسابات، الإغلاق الشهري، وإغلاق الحسابات الضريبية.",
-    exp2Point2: "توظيف وتوفير العمالة المناسبة لاحتياجات الموقع.",
-    exp2Point3: "الإدارة العامة وحل المشكلات التشغيلية والإدارية.",
+    exp2Did: "إدارة العمالة بالموقع، الإغلاق المالي الشهري، إغلاق الحسابات الضريبية، وتوفير الكوادر المناسبة.",
+    exp2Learned: "علمتني كيفية إدارة العمالة الميدانية، إجراء الإغلاقات المالية الشهرية، وحل المشكلات التشغيلية تحت الضغط.",
 
     // 3. 4Geeks
     exp3Role: "مدير مشروع (Project Manager)",
     exp3Company: "4Geeks",
     exp3Date: "يوليو 2025 – ديسمبر 2025",
-    exp3Point1: "إدارة عمليات الأكاديمية وتحسين أداء الشركة المالي والتشغيلي.",
-    exp3Point2: "إعادة هيكلة العمليات، تقليل التكاليف غير الضرورية، تحسين توزيع العمالة، وإدارة جداول العمل.",
-    exp3Point3: "النجاح في نقل الأكاديمية من الخسارة الشهرية إلى تحقيق أرباح شهرياً خلال فترة الإدارة.",
+    exp3Did: "إدارة عمليات الأكاديمية، إعادة هيكلة مسارات العمل، تقليل التكاليف غير الضرورية، تحسين توزيع العمالة، ومتابعة التنفيذ اليومي.",
+    exp3Learned: "علمتني كيف يمكن لإعادة الهيكلة التشغيلية وضبط التكاليف وتنظيم الجداول تحويل الأكاديمية من الخسارة إلى تحقيق أرباح شهرياً.",
 
     // 4. Creativa / Ather
     exp4Role: "مساعد منسق مشاريع وفاعليات",
     exp4Company: "Creativa / Ather",
     exp4Date: "2024 – 2025",
-    exp4Point1: "تنسيق الفاعليات التدريبية، دعم المحاضرين والمتدربين، تنظيم اللوجستيات، وتنسيق الفرق.",
-    exp4Point2: "منسق مشاريع متدرب في فعاليات Dev Arena للإشراف على المسارات الجانبية، الجداول، اللوجستيات والتقارير.",
-    exp4Point3: "بناء مواقع ويب وأدوات بسيطة لدعم الفاعليات عند الحاجة.",
+    exp4Did: "تنسيق الفاعليات التدريبية، دعم المحاضرين والمتدربين، تنظيم اللوجستيات، إدارة مسارات Dev Arena وجداولها وتقاريرها، وبناء أدوات ويب بسيطة.",
+    exp4Learned: "علمتني كيفية تنظيم الفاعليات متعددة المسارات، التنسيق بين المحاضرين والشاركين، إدارة اللوجستيات، والالتزام بالمواعيد النهائية.",
 
     // 5. Kellogg's Noodles
-    exp5Role: "مسؤول تسويق ومبيعات",
+    exp5Role: "مسؤول تسويق ومبيعات ميدانية",
     exp5Company: "Kellogg's Noodles Egypt",
     exp5Date: "نوفمبر 2024 – يناير 2025",
-    exp5Point1: "العمل في المبيعات الميدانية والتسويق الخارجي وتغطية القرى والمراكز بمحافظة المنيا.",
-    exp5Point2: "الإشراف على مندوبي المبيعات ودعمهم ميدانياً.",
-    exp5Point3: "متابعة مشكلات العملاء ودعم الفاعليات والأنشطة الترويجية.",
+    exp5Did: "المبيعات الميدانية والتسويق الخارجي بمحافظة المنيا، الإشراف على المندوبين، ودعم الحملات الميدانية.",
+    exp5Learned: "علمتني طبيعة العمليات الميدانية، كيفية إدارة فرق البيع الميداني، والتعامل المباشر مع مشكلات العملاء.",
 
     // 6. FabriGate
     exp6Role: "مدير مشتريات ومسؤول لوجستيات",
     exp6Company: "FabriGate",
     exp6Date: "2024",
-    exp6Point1: "المشتريات، البحث عن الموردين، التفاوض على الأسعار، ومتابعة التوريد.",
-    exp6Point2: "تخطيط مسارات الشحن والتنسيق اللوجستي.",
+    exp6Did: "المشتريات، البحث عن الموردين، التفاوض على الأسعار، متابعة التوريد، وتخطيط مسارات الشحن.",
+    exp6Learned: "علمتني أساسيات سلاسل التوريد، التفاوض مع الموردين، تتبع الشحنات، وتخطيط مسارات التوزيع.",
 
     // 7. Military Production
     exp7Role: "مدير مشتريات ومشرف موقع",
     exp7Company: "الإنتاج الحربي / هيئة مياه الشرب",
     exp7Date: "2023 – 2024",
-    exp7Point1: "مشتريات المواد والتوريدات ومتابعة المقاولين بالموقع.",
-    exp7Point2: "متابعة تقدم العمل بالموقع وحل المشكلات التشغيلية اليومية.",
-    exp7Point3: "تنسيق الموارد وتقديم تقارير متابعة المهندسين.",
+    exp7Did: "مشتريات الموقع، متابعة المقاولين، مراقبة تقدم العمل، حل المشكلات التشغيلية، وتقديم التقارير للمهندسين.",
+    exp7Learned: "علمتني كيفية متابعة تقدم العمل الميداني، إدارة العلاقات مع المقاولين، وتقديم تقارير دقيقة للإدارة الهندسية.",
 
     // 8. SES Solar Energy
     exp8Role: "مساعد منسق ميداني",
     exp8Company: "SES Solar Energy",
     exp8Date: "2023",
-    exp8Point1: "الإشراف على فرق التركيب ومتابعة المهام اليومية بالموقع.",
-    exp8Point2: "تنسيق المعاينات الميدانية، تجهيز الأدوات والمعدات، ومتابعة المعوقات.",
+    exp8Did: "الإشراف على فرق التركيب، متابعة المهام اليومية، تنسيق المعاينات، تجهيز المعدات، ومتابعة المعوقات.",
+    exp8Learned: "علمتني كيفية متابعة التركيبات التقنية الميدانية، تنسيق فرق العمل الفنية، وحل تأخيرات الموقع بشكل استباقي.",
 
     // 9. Nile Petroleum
     exp9Role: "مساعد مدير حسابات وتغطية عمليات",
     exp9Company: "Nile Petroleum",
     exp9Date: "2023",
-    exp9Point1: "متابعة تشغيل المحطات، التحصيلات، والإيداعات البنكية.",
-    exp9Point2: "تنسيق حركة سيارات البنزين والمتابعة التشغيلية اليومية.",
+    exp9Did: "متابعة تشغيل المحطات، التحصيلات، الإيداعات البنكية، وتنسيق حركة سيارات المواد البترولية.",
+    exp9Learned: "علمتني الانضباط في المتابعة التشغيلية اليومية، التعامل مع التدفقات النقدية، وتنسيق نقل المواد البترولية.",
 
     // 10. Yu-Gi Café
     exp10Role: "مدير إداري وتجاري",
     exp10Company: "Yu-Gi Café",
     exp10Date: "أغسطس 2022 – أغسطس 2023",
-    exp10Point1: "إدارة العمليات اليومية والإدارية لنشاط تجاري عائلي.",
-    exp10Point2: "إدارة العمالة، المخزون، الموردين، الحسابات اليومية، والتعامل مع العملاء.",
+    exp10Did: "إدارة العمليات اليومية لنشاط تجاري عائلي، بما يشمل الموظفين، المخزون، الموردين، والحسابات.",
+    exp10Learned: "علمتني الإدارة المباشرة للأعمال، الإشراف على العمالة، ضبط المخزون، وخدمة العملاء.",
 
     // 11. Cosmetics Business
     exp11Role: "مدير نشاط تجاري",
     exp11Company: "مشروع مستحضرات التجميل والعطور",
     exp11Date: "2021 – 2022",
-    exp11Point1: "إدارة نشاط تجاري في مجال مستحضرات التجميل والعطور ومتابعة تشغيله اليومي.",
+    exp11Did: "إدارة عمليات مشروع مستحضرات التجميل والعطور، المشتريات، والمبيعات.",
+    exp11Learned: "علمتني أساسيات العمليات التجارية، المشتريات، المبيعات، وإدارة العملاء.",
 
     // 12. Front-End Training
     exp12Role: "متدرب تطوير واجهات المستخدم",
     exp12Company: "Ather / EraaSoft",
     exp12Date: "2021 – 2022",
-    exp12Point1: "تدريب عملي على HTML, CSS, JavaScript, Bootstrap, React, والتصميم المتجاوب.",
+    exp12Did: "تدريب عملي مكثف على HTML, CSS, JavaScript, Bootstrap, React, Git والتصميم المتجاوب.",
+    exp12Learned: "منحتني أساساً حقيقياً في هندسة البرمجيات، البناء البرمجي للكود، تكنولوجيا الويب، وكيفية بناء التطبيقات.",
 
     // Education & Training
     eduTitle: "التعليم والتدريب المهني",
@@ -432,11 +519,11 @@ const translations = {
     eduDegreeInst: "المعهد العالي للتكنولوجيا",
     eduDegreeStatus: "درجة بكالوريوس مكتملة",
 
-    train1Title: "تطوير الويب",
+    train1Title: "تطوير تطبيقات الويب",
     train1Inst: "المعهد القومي للاتصالات (NTI)",
     train1Status: "برنامج تدريبي مكتمل",
 
-    train2Title: "التدريب الصيفي",
+    train2Title: "التدريب الصيفي للتكنولوجيا",
     train2Inst: "معهد تكنولوجيا المعلومات (ITI)",
     train2Status: "برنامج تدريبي مكتمل",
 
@@ -444,11 +531,21 @@ const translations = {
     train3Inst: "أكاديمية EraaSoft",
     train3Status: "برنامج تدريبي مكتمل",
 
-    // Professional Direction
+    // Career Direction Section
     dirTitle: "التوجّه المهني",
-    dirHeadline: "إدارة المشروعات التقنية (Technical Project Management)",
-    dirP1: "هدفي المهني هو التطور كـ Technical Project Manager يستطيع فهم الجانب التقني للبرمجيات والجانب التشغيلي للأعمال بنفس القدر.",
-    dirP2: "أريد الجمع بين تطوير البرمجيات، إدارة العمليات، وإدارة الأفراد لمساعدة الفرق على بناء أنظمة عملية تخدم أهداف العمل الحقيقية.",
+    dirSubtitle: "تطور مهني طبيعي من إدارة العمليات نحو إدارة المشروعات التقنية",
+
+    dirStep1Tag: "التركيز الحالي",
+    dirStep1Title: "أين أنا الآن؟",
+    dirStep1Desc: "إدارة العمليات (Operations Management) — إدارة الفرق، تصميم مسارات العمل، متابعة الـ KPIs، اللوجستيات، واتخاذ القرارات التشغيلية.",
+
+    dirStep2Tag: "التطوير الحالي",
+    dirStep2Title: "ما أعمل على بناءه؟",
+    dirStep2Desc: "معرفة وتطوير مهارات إدارة المشروعات — تعميق الخبرة في تنسيق المشروعات، متابعة المهام، أساسيات Agile/Scrum، كتابة User Stories، والعمل مع الفرق التقنية.",
+
+    dirStep3Tag: "الهدف المستقبلي",
+    dirStep3Title: "إلى أين أتجه؟",
+    dirStep3Desc: "إدارة المشروعات التقنية (Technical Project Management) — الجسر بين احتياجات الأعمال والفرق التقنية، ترجمة المتطلبات، وإدارة تنفيذ المشروعات من البداية للنهاية.",
 
     // Contact
     contactTitle: "تواصل معي",
@@ -543,8 +640,8 @@ function setLanguage(lang) {
   const titleEl = document.querySelector("title");
   if (titleEl) {
     titleEl.textContent = lang === "ar" 
-      ? "عمر نور | مهندس برمجيات وإداري عمليات" 
-      : "Omar Nour | Software Engineer & Operations";
+      ? "عمر نور | إداري عمليات (Operations Manager)" 
+      : "Omar Nour | Operations Manager & Software Background";
   }
 }
 
