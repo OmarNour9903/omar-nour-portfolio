@@ -11,7 +11,7 @@ const translations = {
     navAbout: "About",
     navWhatIDo: "What I Do",
     navProjects: "Projects",
-    navSpotix: "Spotix Case Study",
+    navSpotix: "Spotix",
     navExperience: "Experience",
     navEducation: "Education",
     navDirection: "Career Direction",
@@ -26,14 +26,24 @@ const translations = {
     btnExplore: "Explore My Work",
     btnContact: "Contact Me",
     btnCV: "Download CV",
+    heroStatus: "Available for Operations & Project Leadership",
+    heroPhotoBadge: "Operations Manager • Egypt",
+    heroSnapshotFocus: "Operations Management",
+    heroSnapshotFocusLabel: "Primary Practice",
+    heroSnapshotTech: "Software Engineering",
+    heroSnapshotTechLabel: "Technical Grounding",
+    heroSnapshotGrowth: "Project Management",
+    heroSnapshotGrowthLabel: "Current Growth",
+    heroSnapshotAim: "Technical Project Management",
+    heroSnapshotAimLabel: "Career Direction",
 
     // About Me Section
     aboutSectionTitle: "About Me",
     aboutTagline: "Operations Manager with a Software Engineering background, building toward Technical Project Management",
+    aboutQuote: "“Operations succeed when systems are clear, teams are empowered, and technology eliminates friction.”",
     aboutP1: "I work primarily in Operations Management. Over time, I built practical experience across managing operations, teams, logistics, sales operations, process development, business management, and software development.",
     aboutP2: "My software engineering background gives me an understanding of how code is written, how software projects are built, and how technical teams operate. This helps me bridge daily business execution with technical requirements.",
     aboutP3: "I am currently growing as an Operations Manager while developing stronger Project Management knowledge. My long-term direction is Technical Project Management—where I can understand business needs, communicate with developers, and help manage project execution from requirements to delivery.",
-
     aboutBadge1Title: "Primary Focus",
     aboutBadge1Val: "Operations Management",
     aboutBadge2Title: "Technical Background",
@@ -42,12 +52,14 @@ const translations = {
     aboutBadge3Val: "Project Management",
     aboutBadge4Title: "Long-Term Direction",
     aboutBadge4Val: "Technical Project Management",
+    aboutCardTitle: "Professional Profile Specification",
+    aboutCardLocation: "Egypt (On-site & Remote)",
+    aboutCardLocationLabel: "Base & Availability",
 
     // What I Do Section (4 Pillars in Hierarchy)
     whatIDoTitle: "What I Do",
     whatIDoSubtitle: "My primary focus is Operations Management, supported by a software engineering background and ongoing development in project management.",
-
-    // Pillar 1: Operations Management (Primary Focus)
+    opsCoreBadge: "Primary Operating Arena",
     pillar1Title: "Operations Management",
     pillar1Badge: "Primary Focus",
     pillar1Desc: "Managing day-to-day operations, setting up processes, and keeping work moving.",
@@ -59,7 +71,6 @@ const translations = {
     pillar1Item6: "Logistics & Procurement",
     pillar1Item7: "Operational Problem Solving",
 
-    // Pillar 2: Business & Management
     pillar2Title: "Business & Management",
     pillar2Badge: "Management",
     pillar2Desc: "Understanding business needs, managing resources, and developing team leaders.",
@@ -69,7 +80,6 @@ const translations = {
     pillar2Item4: "Workflow & Process Improvement",
     pillar2Item5: "Operational Systems & Procedures",
 
-    // Pillar 3: Software Engineering Background
     pillar3Title: "Software Engineering Background",
     pillar3Badge: "Technical Foundation",
     pillar3Desc: "Technical foundation that helps me understand software projects and communicate with developers.",
@@ -81,7 +91,6 @@ const translations = {
     pillar3Item6: "Testing & Web Layouts",
     pillar3Item7: "Technical Communication with Developers",
 
-    // Pillar 4: Project Management Development
     pillar4Title: "Project Management Development",
     pillar4Badge: "Current Development",
     pillar4Desc: "Currently developing knowledge and practical skills in project management.",
@@ -94,9 +103,22 @@ const translations = {
 
     // Selected Projects Section
     projectsTitle: "Selected Projects",
-    projectsSubtitle: "Real-world web projects and internal operational tools",
+    projectsSubtitle: "Real-world web projects, interactive tools, and internal operational systems",
 
-    proj1Category: "Client Web Project",
+    // Project: AC Calculator
+    projAcCategory: "Practical Software Tool — Efficiency Calculator",
+    projAcTitle: "Air Conditioning Efficiency Calculator",
+    projAcDesc: "A practical software calculator that estimates required cooling capacity and unit requirements based on room dimensions, equipment specs, and occupant heat load.",
+    projAcDidLabel: "What I Did:",
+    projAcDid: "Built the interactive calculation tool, programmed the room volume and occupant thermal load formulas, and designed a clear Arabic-first user interface.",
+    projAcLearnedLabel: "What I Learned:",
+    projAcLearned: "Gained experience translating physical formulas (volume and thermal load) into a clean, responsive web application that provides instant, error-free calculations.",
+    projAcParam1: "Room Dimensions (L × W × H)",
+    projAcParam2: "AC Capacity & Unit Count",
+    projAcParam3: "Occupancy Heat Load",
+
+    // Project 1: Dr. Mohamed Elshawaf
+    proj1Category: "Client Web Project — Medical",
     proj1Title: "Dr. Mohamed Elshawaf Website",
     proj1Desc: "A professional website created for Dr. Mohamed Elshawaf, a doctor in Egypt and Libya specializing in allergy and sinus care. It presents his services and clinic information.",
     proj1DidLabel: "What I Did:",
@@ -104,7 +126,8 @@ const translations = {
     proj1LearnedLabel: "What I Learned:",
     proj1Learned: "Gained experience gathering requirements directly from a medical professional, organizing complex clinical information, and delivering a clean, functional site.",
 
-    proj2Category: "Client Web Project",
+    // Project 2: SIMAH
+    proj2Category: "Client Web Project — Corporate Agency",
     proj2Title: "SIMAH Website",
     proj2Desc: "A corporate website built for SIMAH to present their company services, business information, and contact channels online.",
     proj2DidLabel: "What I Did:",
@@ -112,6 +135,7 @@ const translations = {
     proj2LearnedLabel: "What I Learned:",
     proj2Learned: "Learned how to align web page design with corporate brand identity and deliver a clear online presentation.",
 
+    // Project 3: CourseTopia
     proj3Category: "Internal Business System — Operations Automation",
     proj3Title: "CourseTopia Employee & Attendance System",
     proj3Desc: "An internal system built using Google Apps Script to manage employee information and office attendance.",
@@ -129,13 +153,29 @@ const translations = {
     spotixTitle: "Operations & Management — Spotix",
     spotixPeriod: "May 2026 – Present",
     spotixRoleDesc: "Executive operational management with company-wide decision-making responsibilities across all departments.",
-
     spotixDeptsTitle: "Scope of Responsibilities",
     spotixDeptsDesc: "Moderation, marketing coordination, design operations, sales, procurement, production (cutting, workshop, engraving, finishing, pressing), shipping, logistics, HR, team management, KPI development, and process development.",
+    spotixCluster1Title: "Commercial & Front-Line",
+    spotixCluster1Desc: "Moderation, Marketing Coordination, Sales Operations",
+    spotixCluster2Title: "Production & Workshop",
+    spotixCluster2Desc: "Cutting, Workshop Operations, Engraving, Finishing & Pressing",
+    spotixCluster3Title: "Supply Chain & Fulfillment",
+    spotixCluster3Desc: "Procurement, Vendor Sourcing, Shipping & Route Logistics",
+    spotixCluster4Title: "Governance & Team Leadership",
+    spotixCluster4Desc: "HR, KPI Systems, SOP Rules, Department Leader Mentorship",
 
     spotixApproachTitle: "Management Approach & Problem Solving",
     spotixApproachP1: "When an operational issue occurs, I understand the root cause, listen to the team, consider customer needs, write a clear process rule, train the responsible person, delegate authority, and follow up until the process becomes stable.",
     spotixApproachP2: "The goal is to build an operation that does not depend on one person for every decision. I develop department leaders so they can handle issues independently. I also research machine problems and document operational manuals so the team can troubleshoot technical issues faster without waiting for external maintenance.",
+    spotixMethodTitle: "Operational Problem-Solving Protocol",
+    spotixStep1Title: "Root-Cause Diagnostics",
+    spotixStep1Desc: "Listen to the team, inspect physical and workflow bottlenecks, and analyze customer impact.",
+    spotixStep2Title: "Process Rule (SOP)",
+    spotixStep2Desc: "Formulate an unambiguous operating standard that eliminates dependency on single-person intervention.",
+    spotixStep3Title: "Delegation & Training",
+    spotixStep3Desc: "Train responsible leads, document technical/machine manuals, and empower front-line decision making.",
+    spotixStep4Title: "KPI Monitoring",
+    spotixStep4Desc: "Follow up regularly with measurable benchmarks until the operational workflow is fully autonomous.",
 
     spotixImpactTitle: "Key Operational Contributions",
     spotixImpactItem1: "Expanded overall team structure and added new functional departments.",
@@ -143,19 +183,26 @@ const translations = {
     spotixImpactItem3: "Improved cross-departmental coordination between sales, production, workshop, and shipping.",
     spotixImpactItem4: "Developed department leaders, reducing dependency on direct management intervention.",
     spotixImpactItem5: "Accelerated sales-to-production workflows, helping drive business growth.",
+    spotixImpactItem6: "Expanded my role into social media content direction, planning post ideas, reviewing content, setting visual direction, and selecting products and offers to focus on.",
 
     // Career Timeline
     expTitle: "Career Experience",
     expSubtitle: "Complete timeline from newest to oldest showing responsibilities and key takeaways",
     labelDid: "What I Did:",
     labelLearned: "What I Learned:",
+    expEra1Title: "Executive Operations & Management Leadership",
+    expEra1Subtitle: "Senior operational management, team scaling, and company-wide workflow governance",
+    expEra2Title: "Field Operations, Supply Chain & Logistics",
+    expEra2Subtitle: "Hands-on site supervision, procurement, vendor negotiations, and distribution",
+    expEra3Title: "Foundational Business & Technical Roots",
+    expEra3Subtitle: "Commercial operations, administrative leadership, and software engineering training",
 
     // 1. Spotix
     exp1Role: "Operations & Management",
     exp1Company: "Spotix",
     exp1Date: "May 2026 – Present",
     exp1Did: "Company-wide operations, people management, process development, sales operations, production, logistics, procurement, HR, KPIs, and decision-making across moderation, design, sales, workshop, cutting, and shipping.",
-    exp1Learned: "Taught me how to build self-sustaining teams, establish SOPs, develop department leaders, and manage broad multi-departmental operations.",
+    exp1Learned: "Taught me how to build self-sustaining teams, establish SOPs, develop department leaders, and manage broad multi-departmental operations. Recently, through self-research, studying different examples, and applying lessons directly to our posts, I have also started developing a practical understanding of content planning, visual direction, and aligning social media content with product and offer priorities—learning and refining this area through real daily execution.",
 
     // 2. Porto Group
     exp2Role: "Manager",
@@ -237,19 +284,15 @@ const translations = {
     // Education & Training
     eduTitle: "Education & Professional Training",
     eduSubtitle: "Completed education and specialized training programs",
-
     eduDegreeTitle: "Management Information Systems (MIS)",
     eduDegreeInst: "Higher Institute of Technology",
     eduDegreeStatus: "Completed Degree",
-
     train1Title: "Web Development Specialist",
     train1Inst: "National Telecommunication Institute (NTI)",
     train1Status: "Completed Training",
-
     train2Title: "Summer Technology Program",
     train2Inst: "Information Technology Institute (ITI)",
     train2Status: "Completed Training",
-
     train3Title: "Front-End & React",
     train3Inst: "EraaSoft Academy",
     train3Status: "Completed Training",
@@ -257,15 +300,12 @@ const translations = {
     // Career Direction Section
     dirTitle: "Career Direction",
     dirSubtitle: "Natural professional progression from Operations toward Technical Project Management",
-
     dirStep1Tag: "Current Focus",
     dirStep1Title: "Where I Am Now",
     dirStep1Desc: "Operations Management — managing teams, setting up processes, tracking KPIs, handling logistics, and making operational decisions on the ground.",
-
     dirStep2Tag: "Current Growth",
     dirStep2Title: "What I Am Building",
     dirStep2Desc: "Project Management Knowledge — deepening skills in project coordination, task tracking, Agile/Scrum concepts, User Stories, and working with technical teams.",
-
     dirStep3Tag: "Long-Term Goal",
     dirStep3Title: "Where I Am Going",
     dirStep3Desc: "Technical Project Management — bridging business needs and technical teams, translating requirements, and managing project execution from start to finish.",
@@ -288,7 +328,7 @@ const translations = {
     navAbout: "عن عمر",
     navWhatIDo: "ماذا أفعل",
     navProjects: "المشاريع",
-    navSpotix: "تجربة Spotix",
+    navSpotix: "Spotix",
     navExperience: "الخبرات",
     navEducation: "التعليم",
     navDirection: "التوجّه المهني",
@@ -303,14 +343,24 @@ const translations = {
     btnExplore: "استكشف أعمالي",
     btnContact: "تواصل معي",
     btnCV: "تحميل السيرة الذاتية",
+    heroStatus: "متاح لقيادة العمليات والمشروعات التقنية",
+    heroPhotoBadge: "إداري عمليات • مصر",
+    heroSnapshotFocus: "إدارة العمليات",
+    heroSnapshotFocusLabel: "المجال الأساسي",
+    heroSnapshotTech: "هندسة البرمجيات",
+    heroSnapshotTechLabel: "الأساس التقني",
+    heroSnapshotGrowth: "إدارة المشروعات",
+    heroSnapshotGrowthLabel: "التطوير الحالي",
+    heroSnapshotAim: "إدارة المشروعات التقنية",
+    heroSnapshotAimLabel: "التوجه المستقبلي",
 
     // About Me Section
     aboutSectionTitle: "عن عمر نور",
     aboutTagline: "إداري عمليات بخلفية في هندسة البرمجيات، يتطور نحو إدارة المشروعات التقنية",
+    aboutQuote: "«تنجح العمليات عندما تكون الأنظمة واضحة، وفرق العمل مُمكَّنة، وتعمل التكنولوجيا على إزالة العوائق.»",
     aboutP1: "أعمل بشكل أساسي في مجال إدارة العمليات (Operations Management). بنيت خبرتي العملية عبر إدارة العمليات، الأفراد، اللوجستيات، عمليات المبيعات، تطوير الإجراءات، إدارة الأعمال، وتطوير البرمجيات.",
     aboutP2: "تمنحني خلفيتي في هندسة البرمجيات فهماً حقيقياً لكيفية كتابة الكود وبناء المشاريع البرمجية وطبيعة عمل الفرق التقنية. يساعدني ذلك في الربط بين التنفيذ التشغيلي اليومي والمتطلبات التقنية.",
     aboutP3: "أعمل حالياً على النمو كـ Operations Manager بالتوازي مع تطوير معرفتي بإدارة المشروعات. توجّهي المستقبلي هو إدارة المشروعات التقنية (Technical Project Management)—حيث يمكنني فهم متطلبات الأعمال، والتواصل مع المطورين، ومتابعة تنفيذ المشروعات من مرحلة المتطلبات حتى التسليم.",
-
     aboutBadge1Title: "التركيز الحالي",
     aboutBadge1Val: "إدارة العمليات (Operations)",
     aboutBadge2Title: "الخلفية التقنية",
@@ -319,12 +369,14 @@ const translations = {
     aboutBadge3Val: "إدارة المشروعات",
     aboutBadge4Title: "التوجه المستقبلي",
     aboutBadge4Val: "إدارة المشروعات التقنية",
+    aboutCardTitle: "الملف المهني والمؤشرات",
+    aboutCardLocation: "مصر (حضوري وعن بُعد)",
+    aboutCardLocationLabel: "المقر والجاهزية",
 
     // What I Do Section (4 Pillars in Hierarchy)
     whatIDoTitle: "ماذا أفعل؟",
     whatIDoSubtitle: "تركيزي الأساسي هو إدارة العمليات، مدعوماً بخلفية في هندسة البرمجيات وتطوير مستمر في إدارة المشروعات.",
-
-    // Pillar 1: Operations Management (Primary Focus)
+    opsCoreBadge: "المجال التشغيلي الرئيسي",
     pillar1Title: "إدارة العمليات (Operations Management)",
     pillar1Badge: "التركيز الأساسي",
     pillar1Desc: "إدارة التشغيل اليومي، تصميم مسارات العمل، وضمان استمرارية الإنجاز.",
@@ -336,7 +388,6 @@ const translations = {
     pillar1Item6: "اللوجستيات والمشتريات",
     pillar1Item7: "حل المشكلات التشغيلية",
 
-    // Pillar 2: Business & Management
     pillar2Title: "إدارة الأعمال والفرق",
     pillar2Badge: "الإدارة",
     pillar2Desc: "فهم احتياجات الأعمال، إدارة الموارد، وتطوير قادة الأقسام.",
@@ -346,7 +397,6 @@ const translations = {
     pillar2Item4: "تحسين وتطوير مسارات العمل",
     pillar2Item5: "بناء الأنظمة والإجراءات التشغيلية",
 
-    // Pillar 3: Software Engineering Background
     pillar3Title: "خلفية هندسة البرمجيات",
     pillar3Badge: "الأساس التقني",
     pillar3Desc: "أساس تقني يتيح لي فهم المشاريع البرمجية والتواصل الفعّال مع المطورين.",
@@ -358,7 +408,6 @@ const translations = {
     pillar3Item6: "الاختبار والتصميم المتجاوب",
     pillar3Item7: "التواصل التقني مع فرق التطوير",
 
-    // Pillar 4: Project Management Development
     pillar4Title: "تطوير إدارة المشروعات",
     pillar4Badge: "تطوير حالي",
     pillar4Desc: "أعمل حالياً على تطوير معرفتي ومهاراتي العملية في إدارة المشروعات.",
@@ -371,16 +420,30 @@ const translations = {
 
     // Selected Projects Section
     projectsTitle: "المشاريع المختارة",
-    projectsSubtitle: "مواقع إلكترونية وأدوات أتمتة إدارية تم تنفيذها لعملاء حقيقيين",
+    projectsSubtitle: "مواقع إلكترونية وأدوات تفاعلية وأنظمة تشغيل داخلية تم تنفيذها لعملاء حقيقيين",
 
+    // Project: AC Calculator
+    projAcCategory: "أداة برمجية عملية — حاسبة كفاءة",
+    projAcTitle: "حاسبة كفاءة التكييف المتقدمة",
+    projAcDesc: "أداة برمجية عملية لحساب متطلبات التكييف المناسبة بناءً على أبعاد الغرفة (الطول، العرض، الارتفاع)، قدرة التكييف، عدد الوحدات، والحمل الحراري لعدد الأشخاص.",
+    projAcDidLabel: "ما قمت به:",
+    projAcDid: "تطوير الحاسبة التفاعلية، برمجة معادلات حجم الغرفة والأحمال الحرارية للأشخاص، وتصميم واجهة استخدام واضحة ومتجاوبة.",
+    projAcLearnedLabel: "ما تعلمته:",
+    projAcLearned: "اكتسبت خبرة في تحويل المعادلات والحسابات الهندسية التطبيقية إلى أداة ويب عملية وسريعة تساعد في اتخاذ قرارات دقيقة بدون تعقيد.",
+    projAcParam1: "أبعاد وحجم الغرفة",
+    projAcParam2: "قدرة وعدد الوحدات",
+    projAcParam3: "الحمل الحراري للأشخاص",
+
+    // Project 1: Dr. Mohamed Elshawaf
     proj1Category: "مشروع عميل — موقع طبي",
     proj1Title: "موقع د. محمد الشواف",
     proj1Desc: "موقع إلكتروني احترافي تم إنشاؤه للدكتور محمد الشواف، طبيب متخصص في أمراض الحساسية والأنف والأذن والحنجرة بمصر وليبيا.",
     proj1DidLabel: "ما قمت به:",
     proj1Did: "تطوير واجهة الموقع، تنظيم المحتوى، وضمان تجربة استخدام مرنة ومتجاوبة مع الهواتف.",
     proj1LearnedLabel: "ما تعلمته:",
-    proj1Learned: "كتسبت خبرة في جمع المتطلبات مباشرة من طبيب متخصص، تنظيم المحتوى الطبي المعقد، وتنفيذ موقع عملي وسهل الاستخدام.",
+    proj1Learned: "اكتسبت خبرة في جمع المتطلبات مباشرة من طبيب متخصص، تنظيم المحتوى الطبي المعقد، وتنفيذ موقع عملي وسهل الاستخدام.",
 
+    // Project 2: SIMAH
     proj2Category: "مشروع عميل — موقع شركة",
     proj2Title: "موقع شركة سِمة (SIMAH)",
     proj2Desc: "مشروع موقع إلكتروني تم إنشاؤه لشركة سِمة لعرض خدمات الشركة وهويتها ومعلومات التواصل.",
@@ -389,6 +452,7 @@ const translations = {
     proj2LearnedLabel: "ما تعلمته:",
     proj2Learned: "تعلمت كيفية مطابقة تصميم الموقع مع الهوية المؤسسية للشركة وتقديم عرض رقمي واضح للخدمات.",
 
+    // Project 3: CourseTopia
     proj3Category: "نظام إداري داخلي — أتمتة عمليات",
     proj3Title: "نظام CourseTopia لإدارة الموظفين والحضور",
     proj3Desc: "نظام إداري داخلي تم تطويره باستخدام Google Apps Script لإدارة بيانات الموظفين والحضور.",
@@ -406,13 +470,29 @@ const translations = {
     spotixTitle: "إدارة العمليات — Spotix",
     spotixPeriod: "مايو 2026 – الحالي",
     spotixRoleDesc: "إدارة تشغيلية تنفيذية مع اتخاذ القرارات النهائية على مستوى كافة أقسام الشركة.",
-
     spotixDeptsTitle: "نطاق المسؤوليات",
     spotixDeptsDesc: "الإشراف والتنسيق بين أقسام: خدمة العملاء (Moderation)، التسويق، التصميم، المبيعات، المشتريات، الإنتاج (القص، الورشة، الحفر، التشطيب والكبس)، الشحن، اللوجستيات، الموارد البشرية، وتطوير الأنظمة.",
+    spotixCluster1Title: "العمليات التجارية والعملاء",
+    spotixCluster1Desc: "خدمة العملاء (Moderation)، التنسيق التسويقي، وإدارة المبيعات",
+    spotixCluster2Title: "التصنيع والورشة",
+    spotixCluster2Desc: "القص، تشغيل الورشة، الحفر، التشطيب والكبس الحراري",
+    spotixCluster3Title: "سلاسل الإمداد والتوريد",
+    spotixCluster3Desc: "المشتريات، متابعة الموردين، الشحن واللوجستيات",
+    spotixCluster4Title: "البنية المؤسسية والكوادر",
+    spotixCluster4Desc: "الموارد البشرية، مؤشرات الأداء (KPIs)، وتوثيق الإجراءات (SOPs)",
 
     spotixApproachTitle: "منهجية الإدارة وحل المشكلات",
     spotixApproachP1: "عند حدوث مشكلة تشغيلية، أفهم السبب الجذر، أستمع للفريق، أراعي متطلبات العميل، أضع قاعدة عمل واضحة، أدرّب الشخص المسؤول، أفوّض الصلاحيات، وأتابع حتى يستقر النظام.",
     spotixApproachP2: "الهدف هو بناء منظومة لا تعتمد على شخص واحد في كل قرار. أطور قادة الأقسام ليحلوا المشكلات بأنفسهم. كما أقوم ببحث أعطال الماكينات وتوثيق تشغيلها لتشخيص الأعطال وسرعة إصلاحها دون انتظار الصيانة الخارجية دائماً.",
+    spotixMethodTitle: "منهجية حل المشكلات التشغيلية (4 خطوات)",
+    spotixStep1Title: "تحليل السبب الجذري",
+    spotixStep1Desc: "الاستماع لفريق العمل، فحص نقاط التعطيل الميدانية والتقنية، وتقدير الأثر على العميل.",
+    spotixStep2Title: "صياغة قاعدة العمل (SOP)",
+    spotixStep2Desc: "وضع إجراء قياسي واضح لا يقبل التأويل، لتقليل الاعتماد على التدخل الفردي للإدارة.",
+    spotixStep3Title: "التدريب وتفويض الصلاحيات",
+    spotixStep3Desc: "تدريب مسؤولي الأقسام، توثيق أدلة تشغيل الماكينات، وتمكين الفرق من اتخاذ القرار المباشر.",
+    spotixStep4Title: "متابعة مؤشرات الأداء",
+    spotixStep4Desc: "المتابعة المنتظمة بالمؤشرات الرقمية حتى يصل مسار العمل إلى الاستقرار التام والذاتي.",
 
     spotixImpactTitle: "إسهامات تشغيلية رئيسية",
     spotixImpactItem1: "توسيع الهيكل التنظيمي واستحداث أقسام وظيفية جديدة.",
@@ -420,19 +500,26 @@ const translations = {
     spotixImpactItem3: "تحسين التنسيق بين المبيعات، الإنتاج، الورشة، والشحن.",
     spotixImpactItem4: "تطوير قادة الأقسام وتقليل الاعتماد على التدخل المباشر للإدارة.",
     spotixImpactItem5: "تسريع مسارات العمل من المبيعات إلى الإنتاج مما ساهم في نمو الأعمال.",
+    spotixImpactItem6: "توسيع نطاق المسؤوليات ليشمل توجيه محتوى السوشيال ميديا، وتخطيط أفكار المنشورات، ومراجعة المحتوى، وتحديد التوجه البصري، واختيار المنتجات والعروض ذات الأولوية.",
 
     // Career Timeline
     expTitle: "الخبرات المهنية",
     expSubtitle: "التسلسل الزمني الكامل للخبرات موضحاً المسؤوليات والدروس المستفادة",
     labelDid: "ما قمت به:",
     labelLearned: "ما تعلمته:",
+    expEra1Title: "القيادة التشغيلية والإدارة التنفيذية",
+    expEra1Subtitle: "مسؤوليات تشغيلية عليا، توسيع فرق العمل، وإدارة وحوكمة المنظومات المتكاملة",
+    expEra2Title: "العمليات الميدانية وسلاسل الإمداد واللوجستيات",
+    expEra2Subtitle: "الإشراف الميداني، إدارة المشتريات والموردين، ومتابعة المقاولين والتوزيع",
+    expEra3Title: "إدارة الأعمال والأساس التقني",
+    expEra3Subtitle: "الإدارة التجارية، إدارة المنشآت العائلية، والتدريب المكثف على هندسة البرمجيات",
 
     // 1. Spotix
     exp1Role: "إدارة العمليات والإدارة التنفيذية",
     exp1Company: "Spotix",
     exp1Date: "مايو 2026 – الحالي",
     exp1Did: "إدارة العمليات الشاملة، إدارة الأفراد، تطوير الإجراءات، المبيعات، الإنتاج، اللوجستيات، المشتريات، الموارد البشرية، الـ KPIs، واتخاذ القرارات النهائية بين كافة الأقسام.",
-    exp1Learned: "علمتني هذه التجربة كيفية بناء فرق عمل مستقلة، وضع الإجراءات المعيارية (SOPs)، تطوير قادة الأقسام، وإدارة العمليات واسعة النطاق.",
+    exp1Learned: "علمتني هذه التجربة كيفية بناء فرق عمل مستقلة، وضع الإجراءات المعيارية (SOPs)، تطوير قادة الأقسام، وإدارة العمليات واسعة النطاق. ومؤخراً، من خلال البحث والاطلاع والتطبيق المباشر على محتوى Spotix، بدأت أيضاً في اكتساب فهم عملي لتخطيط المحتوى والتوجه البصري وربط منشورات السوشيال ميديا بأولويات المنتجات والعروض، مع الاستمرار في التعلم وتطوير هذا الجانب مع التجربة والممارسة.",
 
     // 2. Porto Group
     exp2Role: "مدير موقع",
@@ -514,19 +601,15 @@ const translations = {
     // Education & Training
     eduTitle: "التعليم والتدريب المهني",
     eduSubtitle: "المؤهلات الدراسية والبرامج التدريبية المكتملة",
-
     eduDegreeTitle: "نظم المعلومات الإدارية (MIS)",
     eduDegreeInst: "المعهد العالي للتكنولوجيا",
     eduDegreeStatus: "درجة بكالوريوس مكتملة",
-
     train1Title: "تطوير تطبيقات الويب",
     train1Inst: "المعهد القومي للاتصالات (NTI)",
     train1Status: "برنامج تدريبي مكتمل",
-
     train2Title: "التدريب الصيفي للتكنولوجيا",
     train2Inst: "معهد تكنولوجيا المعلومات (ITI)",
     train2Status: "برنامج تدريبي مكتمل",
-
     train3Title: "تطوير الواجهات و React",
     train3Inst: "أكاديمية EraaSoft",
     train3Status: "برنامج تدريبي مكتمل",
@@ -534,15 +617,12 @@ const translations = {
     // Career Direction Section
     dirTitle: "التوجّه المهني",
     dirSubtitle: "تطور مهني طبيعي من إدارة العمليات نحو إدارة المشروعات التقنية",
-
     dirStep1Tag: "التركيز الحالي",
     dirStep1Title: "أين أنا الآن؟",
     dirStep1Desc: "إدارة العمليات (Operations Management) — إدارة الفرق، تصميم مسارات العمل، متابعة الـ KPIs، اللوجستيات، واتخاذ القرارات التشغيلية.",
-
     dirStep2Tag: "التطوير الحالي",
     dirStep2Title: "ما أعمل على بناءه؟",
     dirStep2Desc: "معرفة وتطوير مهارات إدارة المشروعات — تعميق الخبرة في تنسيق المشروعات، متابعة المهام، أساسيات Agile/Scrum، كتابة User Stories، والعمل مع الفرق التقنية.",
-
     dirStep3Tag: "الهدف المستقبلي",
     dirStep3Title: "إلى أين أتجه؟",
     dirStep3Desc: "إدارة المشروعات التقنية (Technical Project Management) — الجسر بين احتياجات الأعمال والفرق التقنية، ترجمة المتطلبات، وإدارة تنفيذ المشروعات من البداية للنهاية.",
@@ -569,7 +649,15 @@ document.addEventListener("DOMContentLoaded", () => {
   initLanguage();
   initNavigation();
   initScrollSpy();
+  initYear();
 });
+
+function initYear() {
+  const yearEl = document.getElementById("year");
+  if (yearEl) {
+    yearEl.textContent = new Date().getFullYear();
+  }
+}
 
 // Theme Management
 function initTheme() {
@@ -587,10 +675,10 @@ function setTheme(theme) {
   currentTheme = theme;
   localStorage.setItem("omar_nour_theme", theme);
   document.documentElement.setAttribute("data-theme", theme);
-  
+
   const sunIcon = document.getElementById("themeIconSun");
   const moonIcon = document.getElementById("themeIconMoon");
-  
+
   if (sunIcon && moonIcon) {
     if (theme === "dark") {
       sunIcon.style.display = "block";
@@ -617,7 +705,7 @@ function initLanguage() {
 function setLanguage(lang) {
   currentLang = lang;
   localStorage.setItem("omar_nour_lang", lang);
-  
+
   document.documentElement.lang = lang;
   document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
 
@@ -639,8 +727,8 @@ function setLanguage(lang) {
   // Update title
   const titleEl = document.querySelector("title");
   if (titleEl) {
-    titleEl.textContent = lang === "ar" 
-      ? "عمر نور | إداري عمليات (Operations Manager)" 
+    titleEl.textContent = lang === "ar"
+      ? "عمر نور | إداري عمليات (Operations Manager)"
       : "Omar Nour | Operations Manager & Software Background";
   }
 }
@@ -681,7 +769,7 @@ function initScrollSpy() {
 
     sections.forEach((current) => {
       const sectionHeight = current.offsetHeight;
-      const sectionTop = current.offsetTop - 100;
+      const sectionTop = current.offsetTop - 120;
       const sectionId = current.getAttribute("id");
 
       if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
@@ -693,5 +781,5 @@ function initScrollSpy() {
         });
       }
     });
-  });
+  }, { passive: true });
 }
