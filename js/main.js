@@ -20,7 +20,7 @@ const translations = {
     // Hero Section
     heroTitle: "Omar Nour",
     heroSubtitle: "Operations Manager",
-    heroBadgeTech: "Software Engineering Background",
+    heroBadgeTech: "Software Engineering",
     heroHeadline: "Building Systems. Managing Operations. Solving Problems.",
     heroParagraph: "I am an Operations Manager with a Software Engineering background. I focus on managing operations, organizing workflows, and leading teams, using my software background to understand technical systems and communicate effectively with developers.",
     btnExplore: "Explore My Work",
@@ -80,7 +80,7 @@ const translations = {
     pillar2Item4: "Workflow & Process Improvement",
     pillar2Item5: "Operational Systems & Procedures",
 
-    pillar3Title: "Software Engineering Background",
+    pillar3Title: "Software Engineering",
     pillar3Badge: "Technical Foundation",
     pillar3Desc: "Technical foundation that helps me understand software projects and communicate with developers.",
     pillar3Item1: "HTML, CSS & JavaScript",
@@ -91,8 +91,8 @@ const translations = {
     pillar3Item6: "Testing & Web Layouts",
     pillar3Item7: "Technical Communication with Developers",
 
-    pillar4Title: "Project Management Development",
-    pillar4Badge: "Current Development",
+    pillar4Title: "Project Manager",
+    pillar4Badge: "Current Development & Management",
     pillar4Desc: "Currently developing knowledge and practical skills in project management.",
     pillar4Item1: "Project Management Concepts",
     pillar4Item2: "Project Coordination & Task Follow-up",
@@ -148,17 +148,18 @@ const translations = {
     btnOpenSystem: "Open System",
     btnGitHubMore: "View More Projects on GitHub",
 
-    // Spotix Case Study
-    spotixTag: "Featured Operations Experience",
-    spotixTitle: "Operations & Management — Spotix",
+    // Spotix Section
+    spotixHeading: "Spotix",
+    spotixTag: "Current Role & Management",
+    spotixTitle: "General Manager — Spotix",
     spotixPeriod: "May 2026 – Present",
-    spotixRoleDesc: "Executive operational management with company-wide decision-making responsibilities across all departments.",
+    spotixRoleDesc: "Started with responsibility for Operations and gradually expanded into General Manager, overseeing the company's day-to-day work and coordinating teams across all departments.",
     spotixDeptsTitle: "Scope of Responsibilities",
-    spotixDeptsDesc: "Moderation, marketing coordination, design operations, sales, procurement, production (cutting, workshop, engraving, finishing, pressing), shipping, logistics, HR, team management, KPI development, and process development.",
+    spotixDeptsDesc: "Overseeing day-to-day work and coordination across departments: Moderation, Marketing Coordination, Design, Sales Operations, Procurement & Supply, Production (Cutting, Workshop, Engraving, Finishing, Pressing), Shipping & Route Logistics, HR, and KPI Systems.",
     spotixCluster1Title: "Commercial & Front-Line",
     spotixCluster1Desc: "Moderation, Marketing Coordination, Sales Operations",
     spotixCluster2Title: "Production & Workshop",
-    spotixCluster2Desc: "Cutting, Workshop Operations, Engraving, Finishing & Pressing",
+    spotixCluster2Desc: "Design, Cutting, Workshop Operations, Engraving, Finishing & Pressing",
     spotixCluster3Title: "Supply Chain & Fulfillment",
     spotixCluster3Desc: "Procurement, Vendor Sourcing, Shipping & Route Logistics",
     spotixCluster4Title: "Governance & Team Leadership",
@@ -178,9 +179,9 @@ const translations = {
     spotixStep4Desc: "Follow up regularly with measurable benchmarks until the operational workflow is fully autonomous.",
 
     spotixImpactTitle: "Key Operational Contributions",
-    spotixImpactItem1: "Expanded overall team structure and added new functional departments.",
+    spotixImpactItem1: "Expanded overall team structure and established coordination frameworks across departments.",
     spotixImpactItem2: "Built KPI-based accountability frameworks with clear departmental responsibilities.",
-    spotixImpactItem3: "Improved cross-departmental coordination between sales, production, workshop, and shipping.",
+    spotixImpactItem3: "Improved cross-departmental coordination between sales, design, workshop, production, and shipping.",
     spotixImpactItem4: "Developed department leaders, reducing dependency on direct management intervention.",
     spotixImpactItem5: "Accelerated sales-to-production workflows, helping drive business growth.",
     spotixImpactItem6: "Expanded my role into social media content direction, planning post ideas, reviewing content, setting visual direction, and selecting products and offers to focus on.",
@@ -198,10 +199,10 @@ const translations = {
     expEra3Subtitle: "Commercial operations, administrative leadership, and software engineering training",
 
     // 1. Spotix
-    exp1Role: "Operations & Management",
+    exp1Role: "General Manager",
     exp1Company: "Spotix",
     exp1Date: "May 2026 – Present",
-    exp1Did: "Company-wide operations, people management, process development, sales operations, production, logistics, procurement, HR, KPIs, and decision-making across moderation, design, sales, workshop, cutting, and shipping.",
+    exp1Did: "Started with responsibility for operations and gradually expanded into General Manager, overseeing the company's day-to-day work under the business owner. Managing cross-departmental execution across sales, moderation, design, marketing content direction, workshop and production, supply and procurement, logistics and shipping, HR, and KPI systems.",
     exp1Learned: "Taught me how to build self-sustaining teams, establish SOPs, develop department leaders, and manage broad multi-departmental operations. Recently, through self-research, studying different examples, and applying lessons directly to our posts, I have also started developing a practical understanding of content planning, visual direction, and aligning social media content with product and offer priorities—learning and refining this area through real daily execution.",
 
     // 2. Porto Group
@@ -319,7 +320,12 @@ const translations = {
     contactLocationVal: "Egypt",
     contactSocialsLabel: "Links",
 
-    footerRights: "Omar Nour. All rights reserved."
+    footerRole: "Operations Manager",
+    footerRights: "Omar Nour. All rights reserved.",
+    whatsappAria: "Chat on WhatsApp",
+    homePageTitle: "Omar Nour | Operations Manager & Software Background",
+    projectsPageTitle: "Projects | Omar Nour",
+    experiencePageTitle: "Experience | Omar Nour"
   },
 
   ar: {
@@ -397,7 +403,7 @@ const translations = {
     pillar2Item4: "تحسين وتطوير مسارات العمل",
     pillar2Item5: "بناء الأنظمة والإجراءات التشغيلية",
 
-    pillar3Title: "خلفية هندسة البرمجيات",
+    pillar3Title: "هندسة البرمجيات",
     pillar3Badge: "الأساس التقني",
     pillar3Desc: "أساس تقني يتيح لي فهم المشاريع البرمجية والتواصل الفعّال مع المطورين.",
     pillar3Item1: "HTML, CSS & JavaScript",
@@ -408,8 +414,8 @@ const translations = {
     pillar3Item6: "الاختبار والتصميم المتجاوب",
     pillar3Item7: "التواصل التقني مع فرق التطوير",
 
-    pillar4Title: "تطوير إدارة المشروعات",
-    pillar4Badge: "تطوير حالي",
+    pillar4Title: "مدير مشروعات (Project Manager)",
+    pillar4Badge: "تطوير وإدارة حالية",
     pillar4Desc: "أعمل حالياً على تطوير معرفتي ومهاراتي العملية في إدارة المشروعات.",
     pillar4Item1: "مفاهيم إدارة المشروعات",
     pillar4Item2: "تنسيق المشروعات ومتابعة المهام",
@@ -465,17 +471,18 @@ const translations = {
     btnOpenSystem: "فتح النظام",
     btnGitHubMore: "عرض المزيد من المشاريع على GitHub",
 
-    // Spotix Case Study
-    spotixTag: "خبرة تشغيلية رئيسية",
-    spotixTitle: "إدارة العمليات — Spotix",
+    // Spotix Section
+    spotixHeading: "Spotix",
+    spotixTag: "الدور الحالي والإدارة العامة",
+    spotixTitle: "المدير العام — Spotix",
     spotixPeriod: "مايو 2026 – الحالي",
-    spotixRoleDesc: "إدارة تشغيلية تنفيذية مع اتخاذ القرارات النهائية على مستوى كافة أقسام الشركة.",
+    spotixRoleDesc: "بدأت بتولي مسؤولية العمليات وتدرجت المسؤوليات وصولاً إلى منصب المدير العام، حيث أدير العمل اليومي وأنسق بين مختلف أقسام الشركة.",
     spotixDeptsTitle: "نطاق المسؤوليات",
-    spotixDeptsDesc: "الإشراف والتنسيق بين أقسام: خدمة العملاء (Moderation)، التسويق، التصميم، المبيعات، المشتريات، الإنتاج (القص، الورشة، الحفر، التشطيب والكبس)، الشحن، اللوجستيات، الموارد البشرية، وتطوير الأنظمة.",
+    spotixDeptsDesc: "الإشراف والتنسيق بين أقسام: خدمة العملاء (Moderation)، التسويق والمحتوى، التصميم، المبيعات، المشتريات والتوريد، الإنتاج (القص، الورشة، الحفر، التشطيب)، الشحن واللوجستيات، الموارد البشرية، وتطوير الأنظمة ومؤشرات الأداء.",
     spotixCluster1Title: "العمليات التجارية والعملاء",
-    spotixCluster1Desc: "خدمة العملاء (Moderation)، التنسيق التسويقي، وإدارة المبيعات",
+    spotixCluster1Desc: "خدمة العملاء (Moderation)، التسويق والمحتوى، وإدارة المبيعات",
     spotixCluster2Title: "التصنيع والورشة",
-    spotixCluster2Desc: "القص، تشغيل الورشة، الحفر، التشطيب والكبس الحراري",
+    spotixCluster2Desc: "التصميم، القص، تشغيل الورشة، الحفر، التشطيب والكبس الحراري",
     spotixCluster3Title: "سلاسل الإمداد والتوريد",
     spotixCluster3Desc: "المشتريات، متابعة الموردين، الشحن واللوجستيات",
     spotixCluster4Title: "البنية المؤسسية والكوادر",
@@ -495,9 +502,9 @@ const translations = {
     spotixStep4Desc: "المتابعة المنتظمة بالمؤشرات الرقمية حتى يصل مسار العمل إلى الاستقرار التام والذاتي.",
 
     spotixImpactTitle: "إسهامات تشغيلية رئيسية",
-    spotixImpactItem1: "توسيع الهيكل التنظيمي واستحداث أقسام وظيفية جديدة.",
+    spotixImpactItem1: "توسيع الهيكل التنظيمي وبناء أطر التنسيق الفعّال بين الأقسام.",
     spotixImpactItem2: "بناء أنظمة قياس أداء (KPIs) محددة للمسؤوليات.",
-    spotixImpactItem3: "تحسين التنسيق بين المبيعات، الإنتاج، الورشة، والشحن.",
+    spotixImpactItem3: "تحسين التنسيق بين المبيعات، التصميم، الورشة، الإنتاج، والشحن.",
     spotixImpactItem4: "تطوير قادة الأقسام وتقليل الاعتماد على التدخل المباشر للإدارة.",
     spotixImpactItem5: "تسريع مسارات العمل من المبيعات إلى الإنتاج مما ساهم في نمو الأعمال.",
     spotixImpactItem6: "توسيع نطاق المسؤوليات ليشمل توجيه محتوى السوشيال ميديا، وتخطيط أفكار المنشورات، ومراجعة المحتوى، وتحديد التوجه البصري، واختيار المنتجات والعروض ذات الأولوية.",
@@ -515,10 +522,10 @@ const translations = {
     expEra3Subtitle: "الإدارة التجارية، إدارة المنشآت العائلية، والتدريب المكثف على هندسة البرمجيات",
 
     // 1. Spotix
-    exp1Role: "إدارة العمليات والإدارة التنفيذية",
+    exp1Role: "المدير العام (General Manager)",
     exp1Company: "Spotix",
     exp1Date: "مايو 2026 – الحالي",
-    exp1Did: "إدارة العمليات الشاملة، إدارة الأفراد، تطوير الإجراءات، المبيعات، الإنتاج، اللوجستيات، المشتريات، الموارد البشرية، الـ KPIs، واتخاذ القرارات النهائية بين كافة الأقسام.",
+    exp1Did: "بدأت بتولي إدارة العمليات وتدرجت المسؤوليات وصولاً إلى منصب المدير العام لإدارة وتنسيق العمل اليومي في الشركة تحت إشراف المالك عبر مختلف الوظائف: المبيعات، خدمة العملاء، التصميم، توجيه المحتوى، الورشة والإنتاج، المشتريات والتوريد، الشحن، الموارد البشرية، ومتابعة مؤشرات الأداء.",
     exp1Learned: "علمتني هذه التجربة كيفية بناء فرق عمل مستقلة، وضع الإجراءات المعيارية (SOPs)، تطوير قادة الأقسام، وإدارة العمليات واسعة النطاق. ومؤخراً، من خلال البحث والاطلاع والتطبيق المباشر على محتوى Spotix، بدأت أيضاً في اكتساب فهم عملي لتخطيط المحتوى والتوجه البصري وربط منشورات السوشيال ميديا بأولويات المنتجات والعروض، مع الاستمرار في التعلم وتطوير هذا الجانب مع التجربة والممارسة.",
 
     // 2. Porto Group
@@ -636,19 +643,40 @@ const translations = {
     contactLocationVal: "مصر",
     contactSocialsLabel: "المنصات والروابط",
 
-    footerRights: "عمر نور. جميع الحقوق محفوظة."
+    footerRole: "إداري عمليات (Operations Manager)",
+    footerRights: "عمر نور. جميع الحقوق محفوظة.",
+    whatsappAria: "تواصل عبر واتساب",
+    homePageTitle: "عمر نور | إداري عمليات (Operations Manager)",
+    projectsPageTitle: "المشاريع | عمر نور",
+    experiencePageTitle: "الخبرات المهنية | عمر نور"
   }
 };
 
-let currentLang = localStorage.getItem("omar_nour_lang") || "en";
-let currentTheme = localStorage.getItem("omar_nour_theme") || "dark";
+function safeGetStorage(key, fallback) {
+  try {
+    return localStorage.getItem(key) || fallback;
+  } catch (e) {
+    return fallback;
+  }
+}
+
+function safeSetStorage(key, value) {
+  try {
+    localStorage.setItem(key, value);
+  } catch (e) {
+    // Storage restricted or unavailable
+  }
+}
+
+let currentLang = safeGetStorage("omar_nour_lang", "en");
+let currentTheme = safeGetStorage("omar_nour_theme", "dark");
 
 // DOM Loaded Initialization
 document.addEventListener("DOMContentLoaded", () => {
   initTheme();
   initLanguage();
   initNavigation();
-  initScrollSpy();
+  initActiveNav();
   initYear();
 });
 
@@ -673,7 +701,7 @@ function initTheme() {
 
 function setTheme(theme) {
   currentTheme = theme;
-  localStorage.setItem("omar_nour_theme", theme);
+  safeSetStorage("omar_nour_theme", theme);
   document.documentElement.setAttribute("data-theme", theme);
 
   const sunIcon = document.getElementById("themeIconSun");
@@ -704,7 +732,7 @@ function initLanguage() {
 
 function setLanguage(lang) {
   currentLang = lang;
-  localStorage.setItem("omar_nour_lang", lang);
+  safeSetStorage("omar_nour_lang", lang);
 
   document.documentElement.lang = lang;
   document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
@@ -724,12 +752,33 @@ function setLanguage(lang) {
     }
   });
 
-  // Update title
+  // Update aria-label for elements with data-i18n-aria
+  const ariaElements = document.querySelectorAll("[data-i18n-aria]");
+  ariaElements.forEach((el) => {
+    const key = el.getAttribute("data-i18n-aria");
+    if (translations[lang] && translations[lang][key]) {
+      el.setAttribute("aria-label", translations[lang][key]);
+    }
+  });
+
+  // Update document title
   const titleEl = document.querySelector("title");
   if (titleEl) {
-    titleEl.textContent = lang === "ar"
-      ? "عمر نور | إداري عمليات (Operations Manager)"
-      : "Omar Nour | Operations Manager & Software Background";
+    const key = titleEl.getAttribute("data-i18n");
+    if (key && translations[lang] && translations[lang][key]) {
+      titleEl.textContent = translations[lang][key];
+    } else {
+      const page = window.location.pathname.split("/").pop() || "index.html";
+      if (page.includes("projects")) {
+        titleEl.textContent = lang === "ar" ? "المشاريع | عمر نور" : "Projects | Omar Nour";
+      } else if (page.includes("experience")) {
+        titleEl.textContent = lang === "ar" ? "الخبرات المهنية | عمر نور" : "Experience | Omar Nour";
+      } else {
+        titleEl.textContent = lang === "ar"
+          ? "عمر نور | إداري عمليات (Operations Manager)"
+          : "Omar Nour | Operations Manager & Software Background";
+      }
+    }
   }
 }
 
@@ -741,45 +790,59 @@ function initNavigation() {
   const navLinks = document.querySelectorAll(".mobile-nav-link");
 
   if (menuBtn && mobileNav) {
-    menuBtn.addEventListener("click", () => {
+    const openMenu = () => {
       mobileNav.classList.add("active");
       document.body.style.overflow = "hidden";
-    });
+    };
 
     const closeMenu = () => {
       mobileNav.classList.remove("active");
       document.body.style.overflow = "";
     };
 
+    menuBtn.addEventListener("click", openMenu);
+
     if (closeBtn) closeBtn.addEventListener("click", closeMenu);
 
     navLinks.forEach((link) => {
       link.addEventListener("click", closeMenu);
     });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && mobileNav.classList.contains("active")) {
+        closeMenu();
+      }
+    });
   }
 }
 
-// Scroll Spy for Nav Highlighting
-function initScrollSpy() {
-  const sections = document.querySelectorAll("section[id]");
-  const navLinks = document.querySelectorAll(".nav-link");
+// Multi-page Active Navigation Indicator
+function initActiveNav() {
+  const path = window.location.pathname.toLowerCase();
+  const isProjects = path.includes("projects");
+  const isExperience = path.includes("experience");
+  const isHome = !isProjects && !isExperience;
 
-  window.addEventListener("scroll", () => {
-    let scrollY = window.pageYOffset;
+  const navLinks = document.querySelectorAll(".nav-link, .mobile-nav-link");
+  navLinks.forEach((link) => {
+    const href = link.getAttribute("href");
+    if (!href || href.startsWith("#") || href.startsWith("mailto:") || href.startsWith("tel:") || href.startsWith("http")) {
+      return;
+    }
+    const cleanHref = href.toLowerCase().split("#")[0].split("?")[0].trim();
+    const isLinkProjects = cleanHref.includes("projects");
+    const isLinkExperience = cleanHref.includes("experience");
+    const isLinkHome = cleanHref.endsWith("index.html") || cleanHref === "" || cleanHref === "./" || cleanHref === "/";
 
-    sections.forEach((current) => {
-      const sectionHeight = current.offsetHeight;
-      const sectionTop = current.offsetTop - 120;
-      const sectionId = current.getAttribute("id");
+    let shouldBeActive = false;
+    if (isProjects && isLinkProjects) shouldBeActive = true;
+    else if (isExperience && isLinkExperience) shouldBeActive = true;
+    else if (isHome && isLinkHome) shouldBeActive = true;
 
-      if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-        navLinks.forEach((link) => {
-          link.classList.remove("active");
-          if (link.getAttribute("href") === `#${sectionId}`) {
-            link.classList.add("active");
-          }
-        });
-      }
-    });
-  }, { passive: true });
+    if (shouldBeActive) {
+      link.classList.add("active");
+    } else {
+      link.classList.remove("active");
+    }
+  });
 }

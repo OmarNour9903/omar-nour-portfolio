@@ -462,7 +462,8 @@ html[lang="ar"] .nav-link.active::after {
   transition: color var(--transition-fast);
 }
 
-.mobile-nav-link:hover {
+.mobile-nav-link:hover,
+.mobile-nav-link.active {
   color: var(--text-accent);
 }
 
@@ -848,11 +849,39 @@ html[lang="ar"] .about-lead-quote {
 /* --------------------------------------------------------------------------
    What I Do Section (Architectural Hierarchy: Ops Anchor + 3-Grid)
    -------------------------------------------------------------------------- */
+/* Unified Active Skills Wrapper Card */
+.what-i-do-unified-card {
+  background-color: var(--bg-card);
+  border: 1.5px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+
+.what-i-do-unified-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 1.5px solid var(--border-color);
+  background-color: var(--bg-elevated);
+}
+
+.what-i-do-unified-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}
+
 .what-i-do-layout {
+  padding: 2.5rem;
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
 }
+
 
 /* Primary Operations Anchor Card */
 .ops-primary-anchor {
@@ -922,10 +951,10 @@ html[lang="ar"] .about-lead-quote {
   flex-shrink: 0;
 }
 
-/* Supporting 3 Pillars Grid */
+/* Supporting 2 Pillars Grid */
 .supporting-pillars-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
 
@@ -1831,14 +1860,122 @@ html[lang="ar"] .timeline-learned-callout {
 }
 
 /* --------------------------------------------------------------------------
-   Footer
+   Standalone Page Section (Projects & Experience)
+   -------------------------------------------------------------------------- */
+.standalone-page-section {
+  padding-top: 7.5rem;
+  padding-bottom: 5rem;
+  min-height: calc(100vh - 120px);
+}
+
+.standalone-page-section .section-header {
+  margin-bottom: 3.5rem;
+}
+
+.standalone-page-section .section-header h1 {
+  font-size: 2.35rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.025em;
+  line-height: 1.25;
+}
+
+/* --------------------------------------------------------------------------
+   Floating WhatsApp Button
+   -------------------------------------------------------------------------- */
+.floating-whatsapp-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 990;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: #25D366;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+  text-decoration: none;
+}
+
+.floating-whatsapp-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+  color: #ffffff;
+}
+
+.floating-whatsapp-btn:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+html[lang="ar"] .floating-whatsapp-btn {
+  right: auto;
+  left: 2rem;
+}
+
+/* --------------------------------------------------------------------------
+   Minimal Shared Footer
    -------------------------------------------------------------------------- */
 .footer {
+  background-color: var(--bg-card);
   border-top: 1px solid var(--border-color);
-  padding: 2.75rem 0;
-  text-align: center;
+  padding: 2.25rem 0;
   font-size: 0.9rem;
   color: var(--text-muted);
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.footer-name {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.footer-divider {
+  color: var(--text-muted);
+  opacity: 0.6;
+}
+
+.footer-role {
+  color: var(--text-muted);
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-link {
+  color: var(--text-muted);
+  transition: color var(--transition-fast);
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: var(--text-accent);
+}
+
+.footer-copy {
+  margin: 0;
+  font-size: 0.85rem;
 }
 
 /* --------------------------------------------------------------------------
@@ -1860,10 +1997,6 @@ html[lang="ar"] .timeline-learned-callout {
   
   .protocol-steps-grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .supporting-pillars-grid {
-    grid-template-columns: 1fr;
   }
   
   .direction-trajectory-flow {
@@ -1933,6 +2066,10 @@ html[lang="ar"] .timeline-learned-callout {
   .contact-section-grid {
     grid-template-columns: 1fr;
   }
+
+  .supporting-pillars-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1978,6 +2115,34 @@ html[lang="ar"] .timeline-learned-callout {
   
   .hero-snapshot-grid {
     grid-template-columns: 1fr;
+  }
+
+  .floating-whatsapp-btn {
+    bottom: 1.5rem;
+    right: 1.5rem;
+    width: 48px;
+    height: 48px;
+  }
+  
+  html[lang="ar"] .floating-whatsapp-btn {
+    right: auto;
+    left: 1.5rem;
+  }
+  
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .standalone-page-section {
+    padding-top: 6rem;
+    padding-bottom: 3.5rem;
+  }
+  
+  .standalone-page-section .section-header h1 {
+    font-size: 1.95rem;
   }
 }
 

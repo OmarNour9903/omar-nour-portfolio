@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="projectsPageTitle">Projects | Omar Nour</title>
+  <meta name="description"
+    content="Real-world web projects, interactive tools, and internal operational systems built by Omar Nour.">
+  <meta name="keywords"
+    content="Omar Nour, Projects, Web Development, Operations Automation, AC Calculator, Medical Website, Corporate Website">
+  <meta name="author" content="Omar Nour">
+
+  <!-- Open Graph / Social Media Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Projects | Omar Nour">
+  <meta property="og:description"
+    content="Real-world web projects, interactive tools, and internal operational systems built by Omar Nour.">
+  <meta property="og:image" content="./IMG-20250920-WA0007.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="./IMG-20250920-WA0007.jpg">
+
+  <!-- Immediate Theme & Direction Init -->
+  <script>
+    (function () {
+      const t = localStorage.getItem("omar_nour_theme") || "dark";
+      const l = localStorage.getItem("omar_nour_lang") || "en";
+      document.documentElement.setAttribute("data-theme", t);
+      document.documentElement.setAttribute("lang", l);
+      document.documentElement.setAttribute("dir", l === "ar" ? "rtl" : "ltr");
+    })();
+  </script>
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+  <!-- Header & Navigation -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        Omar Nour <span class="logo-dot"></span>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link" data-i18n="navHome">Home</a>
+        <a href="projects.html" class="nav-link active" data-i18n="navProjects">Projects</a>
+        <a href="experience.html" class="nav-link" data-i18n="navExperience">Experience</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle Light/Dark Theme">
+          <svg id="themeIconSun" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+          </svg>
+          <svg id="themeIconMoon" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            style="display: none;">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+        </button>
+
+        <!-- Language Switcher -->
+        <button id="langToggle" class="lang-btn" aria-label="Switch Language">
+          <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
+          </svg>
+          <span id="langLabel">العربية</span>
+        </button>
+
+        <!-- Mobile Drawer Menu Toggle -->
+        <button id="mobileMenuBtn" class="icon-btn mobile-menu-btn" aria-label="Open Navigation Menu">
+          <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobileNavDrawer" class="mobile-nav-drawer">
+    <div class="mobile-nav-header">
+      <a href="index.html" class="logo">Omar Nour <span class="logo-dot"></span></a>
+      <button id="closeNavBtn" class="icon-btn" aria-label="Close Menu">
+        <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+    <div class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link" data-i18n="navHome">Home</a>
+      <a href="projects.html" class="mobile-nav-link active" data-i18n="navProjects">Projects</a>
+      <a href="experience.html" class="mobile-nav-link" data-i18n="navExperience">Experience</a>
+    </div>
+  </div>
+
+  <!-- Main Content: Projects Showcase -->
+  <main>
+    <section class="standalone-page-section">
+      <div class="container">
+        <!-- Short Page Introduction -->
+        <div class="section-header">
+          <h1 data-i18n="projectsTitle">Selected Projects</h1>
+          <p class="section-subtitle" data-i18n="projectsSubtitle">Real-world web projects, interactive tools, and
+            internal operational systems</p>
+        </div>
+
+        <div class="projects-showcase-flow">
+          <!-- 1. Featured Wide Showcase: Air Conditioning Efficiency Calculator -->
+          <div class="project-featured-wide">
+            <div class="featured-wide-grid">
+              <div class="browser-frame">
+                <div class="browser-chrome">
+                  <div class="browser-dots">
+                    <span class="browser-dot dot-red"></span>
+                    <span class="browser-dot dot-yellow"></span>
+                    <span class="browser-dot dot-green"></span>
+                  </div>
+                  <div class="browser-address">
+                    <span class="browser-lock-icon">
+                      <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                      </svg>
+                    </span>
+                    <span>calculator.internal / ac-efficiency</span>
+                  </div>
+                </div>
+                <div class="browser-viewport">
+                  <img src="system Air conditioning efficiency calculator.png"
+                    alt="Air Conditioning Efficiency Calculator System Screenshot" class="project-screenshot-img"
+                    loading="lazy">
+                </div>
+              </div>
+
+              <div class="featured-wide-content">
+                <span class="project-category-tag" data-i18n="projAcCategory">Practical Software Tool — Efficiency
+                  Calculator</span>
+                <h2 class="project-heading" data-i18n="projAcTitle">Air Conditioning Efficiency Calculator</h2>
+                <p class="project-summary-text" data-i18n="projAcDesc">
+                  A practical software calculator that estimates required cooling capacity and unit requirements based on
+                  room dimensions, equipment specs, and occupant heat load.
+                </p>
+
+                <!-- Parameter Tags -->
+                <div class="param-chips-group">
+                  <span class="param-chip" data-i18n="projAcParam1">Room Dimensions (L × W × H)</span>
+                  <span class="param-chip" data-i18n="projAcParam2">AC Capacity & Unit Count</span>
+                  <span class="param-chip" data-i18n="projAcParam3">Occupancy Heat Load</span>
+                </div>
+
+                <!-- What I Did & What I Learned -->
+                <div class="project-insights-box">
+                  <div class="insight-row">
+                    <span class="insight-label" data-i18n="projAcDidLabel">What I Did:</span>
+                    <span class="insight-desc" data-i18n="projAcDid">Built the interactive calculation tool, programmed
+                      the room volume and occupant thermal load formulas, and designed a clear Arabic-first user
+                      interface.</span>
+                  </div>
+                  <div class="insight-row">
+                    <span class="insight-label" data-i18n="projAcLearnedLabel">What I Learned:</span>
+                    <span class="insight-desc" data-i18n="projAcLearned">Gained experience translating physical formulas
+                      (volume and thermal load) into a clean, responsive web application that provides instant, error-free
+                      calculations.</span>
+                  </div>
+                </div>
+
+                <div class="project-actions">
+                  <span class="badge" data-i18n="projAcCategory">Practical Software Tool</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Alternating Split Showcase: Dr. Mohamed Elshawaf Website -->
+          <div class="project-split-row">
+            <div class="browser-frame">
+              <div class="browser-chrome">
+                <div class="browser-dots">
+                  <span class="browser-dot dot-red"></span>
+                  <span class="browser-dot dot-yellow"></span>
+                  <span class="browser-dot dot-green"></span>
+                </div>
+                <div class="browser-address">
+                  <span class="browser-lock-icon">
+                    <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                    </svg>
+                  </span>
+                  <span>omarnour9903.github.io/dr-mohamed-elshawaf</span>
+                </div>
+              </div>
+              <div class="browser-viewport">
+                <img src="website dr.mohamed elshawaf.png" alt="Dr. Mohamed Elshawaf Website Screenshot"
+                  class="project-screenshot-img" loading="lazy">
+              </div>
+            </div>
+
+            <div class="project-split-content">
+              <span class="project-category-tag" data-i18n="proj1Category">Client Web Project — Medical</span>
+              <h2 class="project-heading" data-i18n="proj1Title">Dr. Mohamed Elshawaf Website</h2>
+              <p class="project-summary-text" data-i18n="proj1Desc">
+                A professional website created for Dr. Mohamed Elshawaf, a doctor in Egypt and Libya specializing in
+                allergy and sinus care. It presents his services and clinic information.
+              </p>
+
+              <div class="project-insights-box">
+                <div class="insight-row">
+                  <span class="insight-label" data-i18n="proj1DidLabel">What I Did:</span>
+                  <span class="insight-desc" data-i18n="proj1Did">Handled the front-end development, content layout, and
+                    responsive mobile design.</span>
+                </div>
+                <div class="insight-row">
+                  <span class="insight-label" data-i18n="proj1LearnedLabel">What I Learned:</span>
+                  <span class="insight-desc" data-i18n="proj1Learned">Gained experience gathering requirements directly
+                    from a medical professional, organizing complex clinical information, and delivering a clean,
+                    functional site.</span>
+                </div>
+              </div>
+
+              <div>
+                <a href="https://omarnour9903.github.io/dr-mohamed-elshawaf/" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-secondary" data-i18n="btnViewProject">View Project</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Alternating Split Showcase: SIMAH Website -->
+          <div class="project-split-row">
+            <div class="project-split-content">
+              <span class="project-category-tag" data-i18n="proj2Category">Client Web Project — Corporate Agency</span>
+              <h2 class="project-heading" data-i18n="proj2Title">SIMAH Website</h2>
+              <p class="project-summary-text" data-i18n="proj2Desc">
+                A corporate website built for SIMAH to present their company services, business information, and contact
+                channels online.
+              </p>
+
+              <div class="project-insights-box">
+                <div class="insight-row">
+                  <span class="insight-label" data-i18n="proj2DidLabel">What I Did:</span>
+                  <span class="insight-desc" data-i18n="proj2Did">Developed the responsive layout, site structure, and
+                    client contact integration.</span>
+                </div>
+                <div class="insight-row">
+                  <span class="insight-label" data-i18n="proj2LearnedLabel">What I Learned:</span>
+                  <span class="insight-desc" data-i18n="proj2Learned">Learned how to align web page design with corporate
+                    brand identity and deliver a clear online presentation.</span>
+                </div>
+              </div>
+
+              <div>
+                <a href="https://omarnour9903.github.io/Simah/" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-secondary" data-i18n="btnViewProject">View Project</a>
+              </div>
+            </div>
+
+            <div class="browser-frame">
+              <div class="browser-chrome">
+                <div class="browser-dots">
+                  <span class="browser-dot dot-red"></span>
+                  <span class="browser-dot dot-yellow"></span>
+                  <span class="browser-dot dot-green"></span>
+                </div>
+                <div class="browser-address">
+                  <span class="browser-lock-icon">
+                    <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                    </svg>
+                  </span>
+                  <span>omarnour9903.github.io/Simah</span>
+                </div>
+              </div>
+              <div class="browser-viewport">
+                <img src="website simah.png" alt="SIMAH Website Screenshot" class="project-screenshot-img" loading="lazy">
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Operational Automation Spotlight: CourseTopia Employee & Attendance System -->
+          <div class="project-ops-spotlight">
+            <div class="ops-spotlight-grid">
+              <div class="ops-spotlight-content">
+                <div class="ops-spotlight-badges">
+                  <span class="badge" data-i18n="proj3Category">Internal Business System — Operations Automation</span>
+                  <span class="ops-tech-pill">Google Apps Script</span>
+                </div>
+                <h2 class="project-heading" data-i18n="proj3Title">CourseTopia Employee & Attendance System</h2>
+                <p class="project-summary-text" data-i18n="proj3Desc">
+                  An internal system built using Google Apps Script to manage employee information and office attendance.
+                </p>
+
+                <div class="project-insights-box">
+                  <div class="insight-row">
+                    <span class="insight-label" data-i18n="proj3DidLabel">What I Did:</span>
+                    <span class="insight-desc" data-i18n="proj3Did">Programmed the system using Google Apps Script to
+                      handle employee records, individualized work schedules, leave/permission requests, late-arrival
+                      rules, and attendance requirements.</span>
+                  </div>
+                  <div class="insight-row">
+                    <span class="insight-label" data-i18n="proj3LearnedLabel">What I Learned:</span>
+                    <span class="insight-desc" data-i18n="proj3Learned">Demonstrated how software can solve complex
+                      operational problems. I learned how to translate organizational attendance rules into clean
+                      automated logic that reduces manual management overhead.</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="ops-spotlight-actions">
+                <a href="https://script.google.com/macros/s/AKfycbwovE8IGyTdlpzhpuIkjdrCZzoP0ke-QS99x3zXvuuDNsOjUJfPaEjRCOkLHvIaQ-wc/exec"
+                  target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-i18n="btnOpenSystem">Open
+                  System</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- View More on GitHub -->
+        <div class="projects-cta-footer">
+          <a href="https://github.com/OmarNour9903" target="_blank" rel="noopener noreferrer" class="btn btn-outline"
+            data-i18n="btnGitHubMore">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+            </svg>
+            <span data-i18n="btnGitHubMore">View More Projects on GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/201147420383" target="_blank" rel="noopener noreferrer" class="floating-whatsapp-btn"
+    aria-label="Chat on WhatsApp" data-i18n-aria="whatsappAria">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path
+        d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+    </svg>
+  </a>
+
+  <!-- Minimal Shared Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-info">
+        <span class="footer-name">Omar Nour</span>
+        <span class="footer-divider">•</span>
+        <span class="footer-role" data-i18n="footerRole">Operations Manager</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/omar-a-nour-52382b329/" target="_blank" rel="noopener noreferrer"
+          class="footer-link">LinkedIn</a>
+        <a href="https://github.com/OmarNour9903" target="_blank" rel="noopener noreferrer"
+          class="footer-link">GitHub</a>
+        <a href="mailto:omarnour992003@gmail.com" class="footer-link">Email</a>
+      </div>
+      <p class="footer-copy">&copy; <span id="year">2026</span> <span data-i18n="footerRights">Omar Nour. All rights reserved.</span></p>
+    </div>
+  </footer>
+
+  <!-- JavaScript Engine -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

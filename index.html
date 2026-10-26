@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Omar Nour | Operations Manager & Software Background</title>
+  <title data-i18n="homePageTitle">Omar Nour | Operations Manager & Software Background</title>
   <meta name="description"
     content="Personal portfolio of Omar Nour — Operations Manager with a Software Engineering background, building toward Technical Project Management.">
   <meta name="keywords"
@@ -21,6 +21,23 @@
   <!-- Favicon -->
   <link rel="icon" type="image/jpeg" href="./IMG-20250920-WA0007.jpg">
 
+  <!-- Immediate Theme & Direction Init -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("omar_nour_theme") || "dark";
+        var l = localStorage.getItem("omar_nour_lang") || "en";
+        document.documentElement.setAttribute("data-theme", t);
+        document.documentElement.setAttribute("lang", l);
+        document.documentElement.setAttribute("dir", l === "ar" ? "rtl" : "ltr");
+      } catch (e) {
+        document.documentElement.setAttribute("data-theme", "dark");
+        document.documentElement.setAttribute("lang", "en");
+        document.documentElement.setAttribute("dir", "ltr");
+      }
+    })();
+  </script>
+
   <!-- CSS Stylesheet -->
   <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -30,19 +47,14 @@
   <!-- Header & Navigation -->
   <header class="header">
     <div class="container nav-container">
-      <a href="#home" class="logo">
+      <a href="index.html" class="logo">
         Omar Nour <span class="logo-dot"></span>
       </a>
 
       <nav class="nav-menu">
-        <a href="#home" class="nav-link active" data-i18n="navHome">Home</a>
-        <a href="#about" class="nav-link" data-i18n="navAbout">About</a>
-        <a href="#what-i-do" class="nav-link" data-i18n="navWhatIDo">What I Do</a>
-        <a href="#projects" class="nav-link" data-i18n="navProjects">Projects</a>
-        <a href="#spotix" class="nav-link" data-i18n="navSpotix">Spotix</a>
-        <a href="#experience" class="nav-link" data-i18n="navExperience">Experience</a>
-        <a href="#direction" class="nav-link" data-i18n="navDirection">Career Direction</a>
-        <a href="#contact" class="nav-link" data-i18n="navContact">Contact</a>
+        <a href="index.html" class="nav-link active" data-i18n="navHome">Home</a>
+        <a href="projects.html" class="nav-link" data-i18n="navProjects">Projects</a>
+        <a href="experience.html" class="nav-link" data-i18n="navExperience">Experience</a>
       </nav>
 
       <div class="nav-actions">
@@ -81,7 +93,7 @@
   <!-- Mobile Drawer Menu -->
   <div id="mobileNavDrawer" class="mobile-nav-drawer">
     <div class="mobile-nav-header">
-      <span class="logo">Omar Nour <span class="logo-dot"></span></span>
+      <a href="index.html" class="logo">Omar Nour <span class="logo-dot"></span></a>
       <button id="closeNavBtn" class="icon-btn" aria-label="Close Menu">
         <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -89,14 +101,9 @@
       </button>
     </div>
     <div class="mobile-nav-links">
-      <a href="#home" class="mobile-nav-link" data-i18n="navHome">Home</a>
-      <a href="#about" class="mobile-nav-link" data-i18n="navAbout">About</a>
-      <a href="#what-i-do" class="mobile-nav-link" data-i18n="navWhatIDo">What I Do</a>
-      <a href="#projects" class="mobile-nav-link" data-i18n="navProjects">Projects</a>
-      <a href="#spotix" class="mobile-nav-link" data-i18n="navSpotix">Spotix</a>
-      <a href="#experience" class="mobile-nav-link" data-i18n="navExperience">Experience</a>
-      <a href="#direction" class="mobile-nav-link" data-i18n="navDirection">Career Direction</a>
-      <a href="#contact" class="mobile-nav-link" data-i18n="navContact">Contact</a>
+      <a href="index.html" class="mobile-nav-link active" data-i18n="navHome">Home</a>
+      <a href="projects.html" class="mobile-nav-link" data-i18n="navProjects">Projects</a>
+      <a href="experience.html" class="mobile-nav-link" data-i18n="navExperience">Experience</a>
     </div>
   </div>
 
@@ -130,7 +137,7 @@
           </p>
 
           <div class="hero-ctas">
-            <a href="#projects" class="btn btn-primary" data-i18n="btnExplore">Explore My Work</a>
+            <a href="projects.html" class="btn btn-primary" data-i18n="btnExplore">Explore My Work</a>
             <a href="#contact" class="btn btn-secondary" data-i18n="btnContact">Contact Me</a>
             <a href="assets/docs/Omar_Nour_CV.pdf" download class="btn btn-outline" data-i18n="btnCV">
               <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -238,42 +245,7 @@
           </div>
         </div>
 
-        <!-- Right Column: Profile Blueprint Specification -->
-        <div class="about-blueprint-col">
-          <div class="blueprint-card">
-            <div class="blueprint-header">
-              <span class="blueprint-title" data-i18n="aboutCardTitle">Professional Profile Specification</span>
-              <span class="blueprint-status-indicator">
-                <span class="status-pulse-dot" style="width: 6px; height: 6px;"></span>
-                <span>Active</span>
-              </span>
-            </div>
 
-            <div class="blueprint-rows">
-              <div class="blueprint-row">
-                <span class="blueprint-row-label" data-i18n="aboutBadge1Title">Primary Focus</span>
-                <span class="blueprint-row-val" data-i18n="aboutBadge1Val">Operations Management</span>
-              </div>
-              <div class="blueprint-row">
-                <span class="blueprint-row-label" data-i18n="aboutBadge2Title">Technical Background</span>
-                <span class="blueprint-row-val" data-i18n="aboutBadge2Val">Software Engineering</span>
-              </div>
-              <div class="blueprint-row">
-                <span class="blueprint-row-label" data-i18n="aboutBadge3Title">Current Growth</span>
-                <span class="blueprint-row-val" data-i18n="aboutBadge3Val">Project Management</span>
-              </div>
-              <div class="blueprint-row highlight-target">
-                <span class="blueprint-row-label" data-i18n="aboutBadge4Title">Long-Term Direction</span>
-                <span class="blueprint-row-val" data-i18n="aboutBadge4Val">Technical Project Management</span>
-              </div>
-            </div>
-
-            <div class="blueprint-footer">
-              <span class="blueprint-row-label" data-i18n="aboutCardLocationLabel">Base & Availability</span>
-              <span class="blueprint-location" data-i18n="aboutCardLocation">Egypt (On-site & Remote)</span>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -287,122 +259,112 @@
           a software engineering background and ongoing development in project management.</p>
       </div>
 
-      <div class="what-i-do-layout">
-        <!-- 1. Featured Operations Anchor Card -->
-        <div class="ops-primary-anchor">
-          <div class="ops-anchor-header">
-            <div class="ops-anchor-title-group">
-              <span class="badge" data-i18n="opsCoreBadge">Primary Operating Arena</span>
-              <h3 data-i18n="pillar1Title">Operations Management</h3>
-            </div>
-            <div class="hero-portrait-badge" data-i18n="pillar1Badge">Primary Focus</div>
-          </div>
-
-          <p class="ops-anchor-desc" data-i18n="pillar1Desc">Managing day-to-day operations, setting up processes, and
-            keeping work moving.</p>
-
-          <div class="ops-capabilities-grid">
-            <div class="capability-item">
-              <span class="capability-dot"></span>
-              <span data-i18n="pillar1Item1">People Management & Team Leadership</span>
-            </div>
-            <div class="capability-item">
-              <span class="capability-dot"></span>
-              <span data-i18n="pillar1Item2">KPI Systems & Performance Follow-up</span>
-            </div>
-            <div class="capability-item">
-              <span class="capability-dot"></span>
-              <span data-i18n="pillar1Item3">Process Development & SOP Rules</span>
-            </div>
-            <div class="capability-item">
-              <span class="capability-dot"></span>
-              <span data-i18n="pillar1Item4">Operational Decision Making</span>
-            </div>
-            <div class="capability-item">
-              <span class="capability-dot"></span>
-              <span data-i18n="pillar1Item5">Sales Operations</span>
-            </div>
-            <div class="capability-item">
-              <span class="capability-dot"></span>
-              <span data-i18n="pillar1Item6">Logistics & Procurement</span>
-            </div>
-            <div class="capability-item">
-              <span class="capability-dot"></span>
-              <span data-i18n="pillar1Item7">Operational Problem Solving</span>
-            </div>
-          </div>
+      <!-- Unified Active Skills Card -->
+      <div class="what-i-do-unified-card">
+        <div class="what-i-do-unified-header">
+          <span class="what-i-do-unified-title" data-i18n="whatIDoUnifiedLabel">Active Across All Areas</span>
+          <span class="blueprint-status-indicator">
+            <span class="status-pulse-dot" style="width: 6px; height: 6px;"></span>
+            <span>Active</span>
+          </span>
         </div>
 
-        <!-- 2. Supporting 3 Pillars Grid -->
-        <div class="supporting-pillars-grid">
-          <!-- Pillar 2: Business & Management -->
-          <div class="supporting-pillar-card">
-            <div class="supporting-pillar-header">
-              <span class="badge badge-tech" data-i18n="pillar2Badge">Management</span>
-              <h4 data-i18n="pillar2Title">Business & Management</h4>
+        <div class="what-i-do-layout">
+          <!-- 1. Featured Operations Anchor Card -->
+          <div class="ops-primary-anchor">
+            <div class="ops-anchor-header">
+              <div class="ops-anchor-title-group">
+                <span class="badge" data-i18n="opsCoreBadge">Primary Operating Arena</span>
+                <h3 data-i18n="pillar1Title">Operations Management</h3>
+              </div>
+              <div class="hero-portrait-badge" data-i18n="pillar1Badge">Primary Focus</div>
             </div>
-            <p data-i18n="pillar2Desc">Understanding business needs, managing resources, and developing team leaders.
-            </p>
-            <div class="supporting-pillar-list">
-              <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
-                  data-i18n="pillar2Item1">Business Operations & Management</span></div>
-              <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
-                  data-i18n="pillar2Item2">Developing Managers & Team Leaders</span></div>
-              <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
-                  data-i18n="pillar2Item3">Customer Handling & Issue Resolution</span></div>
-              <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
-                  data-i18n="pillar2Item4">Workflow & Process Improvement</span></div>
-              <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
-                  data-i18n="pillar2Item5">Operational Systems & Procedures</span></div>
+
+            <p class="ops-anchor-desc" data-i18n="pillar1Desc">Managing day-to-day operations, setting up processes, and
+              keeping work moving.</p>
+
+            <div class="ops-capabilities-grid">
+              <div class="capability-item">
+                <span class="capability-dot"></span>
+                <span data-i18n="pillar1Item1">People Management & Team Leadership</span>
+              </div>
+              <div class="capability-item">
+                <span class="capability-dot"></span>
+                <span data-i18n="pillar1Item2">KPI Systems & Performance Follow-up</span>
+              </div>
+              <div class="capability-item">
+                <span class="capability-dot"></span>
+                <span data-i18n="pillar1Item3">Process Development & SOP Rules</span>
+              </div>
+              <div class="capability-item">
+                <span class="capability-dot"></span>
+                <span data-i18n="pillar1Item4">Operational Decision Making</span>
+              </div>
+              <div class="capability-item">
+                <span class="capability-dot"></span>
+                <span data-i18n="pillar1Item5">Sales Operations</span>
+              </div>
+              <div class="capability-item">
+                <span class="capability-dot"></span>
+                <span data-i18n="pillar1Item6">Logistics & Procurement</span>
+              </div>
+              <div class="capability-item">
+                <span class="capability-dot"></span>
+                <span data-i18n="pillar1Item7">Operational Problem Solving</span>
+              </div>
             </div>
           </div>
 
-          <!-- Pillar 3: Software Engineering Background -->
-          <div class="supporting-pillar-card">
-            <div class="supporting-pillar-header">
-              <span class="badge badge-tech" data-i18n="pillar3Badge">Technical Foundation</span>
-              <h4 data-i18n="pillar3Title">Software Engineering Background</h4>
-            </div>
-            <p data-i18n="pillar3Desc">Technical foundation that helps me understand software projects and communicate
-              with developers.</p>
-            <div class="supporting-pillar-list">
-              <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
-                  data-i18n="pillar3Item1">HTML, CSS & JavaScript</span></div>
-              <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
-                  data-i18n="pillar3Item2">React & Front-End Concepts</span></div>
-              <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
-                  data-i18n="pillar3Item3">Bootstrap & Tailwind CSS</span></div>
-              <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
-                  data-i18n="pillar3Item4">WordPress</span></div>
-              <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
-                  data-i18n="pillar3Item5">Git & GitHub Workflows</span></div>
-              <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
-                  data-i18n="pillar3Item6">Testing & Web Layouts</span></div>
-              <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
-                  data-i18n="pillar3Item7">Technical Communication with Developers</span></div>
-            </div>
-          </div>
+          <!-- 2. Supporting 3 Pillars Grid -->
+          <div class="supporting-pillars-grid">
 
-          <!-- Pillar 4: Project Management Development -->
-          <div class="supporting-pillar-card">
-            <div class="supporting-pillar-header">
-              <span class="badge badge-tech" data-i18n="pillar4Badge">Current Development</span>
-              <h4 data-i18n="pillar4Title">Project Management Development</h4>
+            <!-- Pillar 3: Software Engineering Background -->
+            <div class="supporting-pillar-card">
+              <div class="supporting-pillar-header">
+                <span class="badge badge-tech" data-i18n="pillar3Badge">Technical Foundation</span>
+                <h4 data-i18n="pillar3Title">Software Engineering</h4>
+              </div>
+              <p data-i18n="pillar3Desc">Technical foundation that helps me understand software projects and communicate
+                with developers.</p>
+              <div class="supporting-pillar-list">
+                <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
+                    data-i18n="pillar3Item1">HTML, CSS & JavaScript</span></div>
+                <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
+                    data-i18n="pillar3Item2">React & Front-End Concepts</span></div>
+                <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
+                    data-i18n="pillar3Item3">Bootstrap & Tailwind CSS</span></div>
+                <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
+                    data-i18n="pillar3Item4">WordPress</span></div>
+                <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
+                    data-i18n="pillar3Item5">Git & GitHub Workflows</span></div>
+                <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
+                    data-i18n="pillar3Item6">Testing & Web Layouts</span></div>
+                <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
+                    data-i18n="pillar3Item7">Technical Communication with Developers</span></div>
+              </div>
             </div>
-            <p data-i18n="pillar4Desc">Currently developing knowledge and practical skills in project management.</p>
-            <div class="supporting-pillar-list">
-              <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
-                  data-i18n="pillar4Item1">Project Management Concepts</span></div>
-              <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
-                  data-i18n="pillar4Item2">Project Coordination & Task Follow-up</span></div>
-              <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
-                  data-i18n="pillar4Item3">Agile & Scrum Basics</span></div>
-              <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
-                  data-i18n="pillar4Item4">User Stories & Requirement Breakdown</span></div>
-              <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
-                  data-i18n="pillar4Item5">Working with Technical Teams</span></div>
-              <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
-                  data-i18n="pillar4Item6">Project Execution Tracking</span></div>
+
+            <!-- Pillar 4: Project Management Development -->
+            <div class="supporting-pillar-card">
+              <div class="supporting-pillar-header">
+                <span class="badge badge-tech" data-i18n="pillar4Badge">Current Development & Management</span>
+                <h4 data-i18n="pillar4Title">Project Manager</h4>
+              </div>
+              <p data-i18n="pillar4Desc">Currently developing knowledge and practical skills in project management.</p>
+              <div class="supporting-pillar-list">
+                <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
+                    data-i18n="pillar4Item1">Project Management Concepts</span></div>
+                <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
+                    data-i18n="pillar4Item2">Project Coordination & Task Follow-up</span></div>
+                <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
+                    data-i18n="pillar4Item3">Agile & Scrum Basics</span></div>
+                <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
+                    data-i18n="pillar4Item4">User Stories & Requirement Breakdown</span></div>
+                <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
+                    data-i18n="pillar4Item5">Working with Technical Teams</span></div>
+                <div class="supporting-item"><span class="supporting-item-bullet">•</span><span
+                    data-i18n="pillar4Item6">Project Execution Tracking</span></div>
+              </div>
             </div>
           </div>
         </div>
@@ -410,252 +372,22 @@
     </div>
   </section>
 
-  <!-- Selected Projects Section (The Major Visual Showpiece!) -->
-  <section id="projects">
-    <div class="container">
-      <div class="section-header">
-        <h2 data-i18n="projectsTitle">Selected Projects</h2>
-        <p class="section-subtitle" data-i18n="projectsSubtitle">Real-world web projects, interactive tools, and
-          internal operational systems</p>
-      </div>
-
-      <div class="projects-showcase-flow">
-        <!-- 1. Featured Wide Showcase: Air Conditioning Efficiency Calculator -->
-        <div class="project-featured-wide">
-          <div class="featured-wide-grid">
-            <div class="browser-frame">
-              <div class="browser-chrome">
-                <div class="browser-dots">
-                  <span class="browser-dot dot-red"></span>
-                  <span class="browser-dot dot-yellow"></span>
-                  <span class="browser-dot dot-green"></span>
-                </div>
-                <div class="browser-address">
-                  <span class="browser-lock-icon">
-                    <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                    </svg>
-                  </span>
-                  <span>calculator.internal / ac-efficiency</span>
-                </div>
-              </div>
-              <div class="browser-viewport">
-                <img src="system Air conditioning efficiency calculator.png"
-                  alt="Air Conditioning Efficiency Calculator System Screenshot" class="project-screenshot-img"
-                  loading="lazy">
-              </div>
-            </div>
-
-            <div class="featured-wide-content">
-              <span class="project-category-tag" data-i18n="projAcCategory">Practical Software Tool — Efficiency
-                Calculator</span>
-              <h3 class="project-heading" data-i18n="projAcTitle">Air Conditioning Efficiency Calculator</h3>
-              <p class="project-summary-text" data-i18n="projAcDesc">
-                A practical software calculator that estimates required cooling capacity and unit requirements based on
-                room dimensions, equipment specs, and occupant heat load.
-              </p>
-
-              <!-- Parameter Tags -->
-              <div class="param-chips-group">
-                <span class="param-chip" data-i18n="projAcParam1">Room Dimensions (L × W × H)</span>
-                <span class="param-chip" data-i18n="projAcParam2">AC Capacity & Unit Count</span>
-                <span class="param-chip" data-i18n="projAcParam3">Occupancy Heat Load</span>
-              </div>
-
-              <!-- What I Did & What I Learned -->
-              <div class="project-insights-box">
-                <div class="insight-row">
-                  <span class="insight-label" data-i18n="projAcDidLabel">What I Did:</span>
-                  <span class="insight-desc" data-i18n="projAcDid">Built the interactive calculation tool, programmed
-                    the room volume and occupant thermal load formulas, and designed a clear Arabic-first user
-                    interface.</span>
-                </div>
-                <div class="insight-row">
-                  <span class="insight-label" data-i18n="projAcLearnedLabel">What I Learned:</span>
-                  <span class="insight-desc" data-i18n="projAcLearned">Gained experience translating physical formulas
-                    (volume and thermal load) into a clean, responsive web application that provides instant, error-free
-                    calculations.</span>
-                </div>
-              </div>
-
-              <div class="project-actions">
-                <span class="badge" data-i18n="projAcCategory">Practical Software Tool</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- 2. Alternating Split Showcase: Dr. Mohamed Elshawaf Website -->
-        <div class="project-split-row">
-          <div class="browser-frame">
-            <div class="browser-chrome">
-              <div class="browser-dots">
-                <span class="browser-dot dot-red"></span>
-                <span class="browser-dot dot-yellow"></span>
-                <span class="browser-dot dot-green"></span>
-              </div>
-              <div class="browser-address">
-                <span class="browser-lock-icon">
-                  <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                  </svg>
-                </span>
-                <span>omarnour9903.github.io/dr-mohamed-elshawaf</span>
-              </div>
-            </div>
-            <div class="browser-viewport">
-              <img src="website dr.mohamed elshawaf.png" alt="Dr. Mohamed Elshawaf Website Screenshot"
-                class="project-screenshot-img" loading="lazy">
-            </div>
-          </div>
-
-          <div class="project-split-content">
-            <span class="project-category-tag" data-i18n="proj1Category">Client Web Project — Medical</span>
-            <h3 class="project-heading" data-i18n="proj1Title">Dr. Mohamed Elshawaf Website</h3>
-            <p class="project-summary-text" data-i18n="proj1Desc">
-              A professional website created for Dr. Mohamed Elshawaf, a doctor in Egypt and Libya specializing in
-              allergy
-              and sinus care. It presents his services and clinic information.
-            </p>
-
-            <div class="project-insights-box">
-              <div class="insight-row">
-                <span class="insight-label" data-i18n="proj1DidLabel">What I Did:</span>
-                <span class="insight-desc" data-i18n="proj1Did">Handled the front-end development, content layout, and
-                  responsive mobile design.</span>
-              </div>
-              <div class="insight-row">
-                <span class="insight-label" data-i18n="proj1LearnedLabel">What I Learned:</span>
-                <span class="insight-desc" data-i18n="proj1Learned">Gained experience gathering requirements directly
-                  from a medical professional, organizing complex clinical information, and delivering a clean,
-                  functional site.</span>
-              </div>
-            </div>
-
-            <div>
-              <a href="https://omarnour9903.github.io/dr-mohamed-elshawaf/" target="_blank" rel="noopener noreferrer"
-                class="btn btn-secondary" data-i18n="btnViewProject">View Project</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- 3. Alternating Split Showcase: SIMAH Website -->
-        <div class="project-split-row">
-          <div class="project-split-content">
-            <span class="project-category-tag" data-i18n="proj2Category">Client Web Project — Corporate Agency</span>
-            <h3 class="project-heading" data-i18n="proj2Title">SIMAH Website</h3>
-            <p class="project-summary-text" data-i18n="proj2Desc">
-              A corporate website built for SIMAH to present their company services, business information, and contact
-              channels online.
-            </p>
-
-            <div class="project-insights-box">
-              <div class="insight-row">
-                <span class="insight-label" data-i18n="proj2DidLabel">What I Did:</span>
-                <span class="insight-desc" data-i18n="proj2Did">Developed the responsive layout, site structure, and
-                  client contact integration.</span>
-              </div>
-              <div class="insight-row">
-                <span class="insight-label" data-i18n="proj2LearnedLabel">What I Learned:</span>
-                <span class="insight-desc" data-i18n="proj2Learned">Learned how to align web page design with corporate
-                  brand identity and deliver a clear online presentation.</span>
-              </div>
-            </div>
-
-            <div>
-              <a href="https://omarnour9903.github.io/Simah/" target="_blank" rel="noopener noreferrer"
-                class="btn btn-secondary" data-i18n="btnViewProject">View Project</a>
-            </div>
-          </div>
-
-          <div class="browser-frame">
-            <div class="browser-chrome">
-              <div class="browser-dots">
-                <span class="browser-dot dot-red"></span>
-                <span class="browser-dot dot-yellow"></span>
-                <span class="browser-dot dot-green"></span>
-              </div>
-              <div class="browser-address">
-                <span class="browser-lock-icon">
-                  <svg width="12" height="12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                  </svg>
-                </span>
-                <span>omarnour9903.github.io/Simah</span>
-              </div>
-            </div>
-            <div class="browser-viewport">
-              <img src="website simah.png" alt="SIMAH Website Screenshot" class="project-screenshot-img" loading="lazy">
-            </div>
-          </div>
-        </div>
-
-        <!-- 4. Operational Automation Spotlight: CourseTopia Employee & Attendance System -->
-        <div class="project-ops-spotlight">
-          <div class="ops-spotlight-grid">
-            <div class="ops-spotlight-content">
-              <div class="ops-spotlight-badges">
-                <span class="badge" data-i18n="proj3Category">Internal Business System — Operations Automation</span>
-                <span class="ops-tech-pill">Google Apps Script</span>
-              </div>
-              <h3 class="project-heading" data-i18n="proj3Title">CourseTopia Employee & Attendance System</h3>
-              <p class="project-summary-text" data-i18n="proj3Desc">
-                An internal system built using Google Apps Script to manage employee information and office attendance.
-              </p>
-
-              <div class="project-insights-box">
-                <div class="insight-row">
-                  <span class="insight-label" data-i18n="proj3DidLabel">What I Did:</span>
-                  <span class="insight-desc" data-i18n="proj3Did">Programmed the system using Google Apps Script to
-                    handle employee records, individualized work schedules, leave/permission requests, late-arrival
-                    rules, and attendance requirements.</span>
-                </div>
-                <div class="insight-row">
-                  <span class="insight-label" data-i18n="proj3LearnedLabel">What I Learned:</span>
-                  <span class="insight-desc" data-i18n="proj3Learned">Demonstrated how software can solve complex
-                    operational problems. I learned how to translate organizational attendance rules into clean
-                    automated logic that reduces manual management overhead.</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="ops-spotlight-actions">
-              <a href="https://script.google.com/macros/s/AKfycbwovE8IGyTdlpzhpuIkjdrCZzoP0ke-QS99x3zXvuuDNsOjUJfPaEjRCOkLHvIaQ-wc/exec"
-                target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-i18n="btnOpenSystem">Open
-                System</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="projects-cta-footer">
-        <a href="https://github.com/OmarNour9903" target="_blank" rel="noopener noreferrer" class="btn btn-outline"
-          data-i18n="btnGitHubMore">
-          <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
-            <path fill-rule="evenodd" clip-rule="evenodd"
-              d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
-          </svg>
-          <span data-i18n="btnGitHubMore">View More Projects on GitHub</span>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Spotix Case Study Section (Executive Deep-Dive) -->
+  <!-- Spotix Section -->
   <section id="spotix" class="spotix-section">
     <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="spotixHeading">Spotix</h2>
+      </div>
       <div class="spotix-executive-card">
         <div class="spotix-top-header">
           <div class="spotix-meta-row">
             <span class="spotix-period-pill" data-i18n="spotixPeriod">May 2026 – Present</span>
-            <span class="badge" data-i18n="spotixTag">Featured Operations Experience</span>
+            <span class="badge" data-i18n="spotixTag">Current Role & Management</span>
           </div>
-          <h3 data-i18n="spotixTitle">Operations & Management — Spotix</h3>
+          <h3 data-i18n="spotixTitle">General Manager — Spotix</h3>
           <p class="spotix-executive-summary" data-i18n="spotixRoleDesc">
-            Executive operational management with company-wide decision-making responsibilities across all departments.
+            Started with responsibility for Operations and gradually expanded into General Manager, overseeing the
+            company's day-to-day work and coordinating teams across all departments.
           </p>
         </div>
 
@@ -682,36 +414,7 @@
           </div>
         </div>
 
-        <!-- 4-Step Operational Problem-Solving Protocol -->
-        <div class="spotix-protocol-wrapper">
-          <h4 class="spotix-protocol-title" data-i18n="spotixMethodTitle">Operational Problem-Solving Protocol</h4>
-          <div class="protocol-steps-grid">
-            <div class="protocol-step">
-              <span class="protocol-step-num">01</span>
-              <h6 data-i18n="spotixStep1Title">Root-Cause Diagnostics</h6>
-              <p data-i18n="spotixStep1Desc">Listen to the team, inspect physical and workflow bottlenecks, and analyze
-                customer impact.</p>
-            </div>
-            <div class="protocol-step">
-              <span class="protocol-step-num">02</span>
-              <h6 data-i18n="spotixStep2Title">Process Rule (SOP)</h6>
-              <p data-i18n="spotixStep2Desc">Formulate an unambiguous operating standard that eliminates dependency on
-                single-person intervention.</p>
-            </div>
-            <div class="protocol-step">
-              <span class="protocol-step-num">03</span>
-              <h6 data-i18n="spotixStep3Title">Delegation & Training</h6>
-              <p data-i18n="spotixStep3Desc">Train responsible leads, document technical/machine manuals, and empower
-                front-line decision making.</p>
-            </div>
-            <div class="protocol-step">
-              <span class="protocol-step-num">04</span>
-              <h6 data-i18n="spotixStep4Title">KPI Monitoring</h6>
-              <p data-i18n="spotixStep4Desc">Follow up regularly with measurable benchmarks until the operational
-                workflow is fully autonomous.</p>
-            </div>
-          </div>
-        </div>
+
 
         <!-- Key Operational Contributions -->
         <div class="spotix-impacts-wrapper">
@@ -772,312 +475,7 @@
     </div>
   </section>
 
-  <!-- Career Experience Section (3 Eras, All 12 Roles Visible with Reading Rhythm) -->
-  <section id="experience">
-    <div class="container">
-      <div class="section-header">
-        <h2 data-i18n="expTitle">Career Experience</h2>
-        <p class="section-subtitle" data-i18n="expSubtitle">Complete timeline from newest to oldest showing
-          responsibilities and key takeaways</p>
-      </div>
 
-      <div class="experience-eras-wrapper">
-        <!-- ERA 1: Executive Operations & Management Leadership (2025 – Present) -->
-        <div class="exp-era">
-          <div class="era-header">
-            <h3 class="era-title">
-              <span class="badge" style="font-size: 0.8rem;">Era 01</span>
-              <span data-i18n="expEra1Title">Executive Operations & Management Leadership</span>
-            </h3>
-            <span class="era-subtitle" data-i18n="expEra1Subtitle">Senior operational management, team scaling, and
-              company-wide workflow governance</span>
-          </div>
-
-          <div class="era-timeline">
-            <!-- 1. Spotix -->
-            <div class="timeline-entry">
-              <div class="timeline-marker"></div>
-              <div class="timeline-ledger-card">
-                <div class="timeline-top-row">
-                  <span class="timeline-role-title" data-i18n="exp1Role">Operations & Management</span>
-                  <span class="timeline-date-pill" data-i18n="exp1Date">May 2026 – Present</span>
-                </div>
-                <div class="timeline-company-name" data-i18n="exp1Company">Spotix</div>
-                <div class="timeline-did-label" data-i18n="labelDid">What I Did:</div>
-                <p class="timeline-did-text" data-i18n="exp1Did">Company-wide operations, people management, process
-                  development, sales operations, production, logistics, procurement, HR, KPIs, and decision-making
-                  across moderation, design, sales, workshop, cutting, and shipping.</p>
-                <div class="timeline-learned-callout">
-                  <div class="timeline-learned-label" data-i18n="labelLearned">What I Learned:</div>
-                  <div class="timeline-learned-text" data-i18n="exp1Learned">Taught me how to build self-sustaining
-                    teams, establish SOPs, develop department leaders, and manage broad multi-departmental operations.
-                    Recently, through self-research, studying different examples, and applying lessons directly to our
-                    posts, I have also started developing a practical understanding of content planning, visual
-                    direction, and aligning social media content with product and offer priorities—learning and refining
-                    this area through real daily execution.</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- 2. Porto Group -->
-            <div class="timeline-entry">
-              <div class="timeline-marker"></div>
-              <div class="timeline-ledger-card">
-                <div class="timeline-top-row">
-                  <span class="timeline-role-title" data-i18n="exp2Role">Manager</span>
-                  <span class="timeline-date-pill" data-i18n="exp2Date">January 2026 – May 2026</span>
-                </div>
-                <div class="timeline-company-name" data-i18n="exp2Company">Porto Group — Qena</div>
-                <div class="timeline-did-label" data-i18n="labelDid">What I Did:</div>
-                <p class="timeline-did-text" data-i18n="exp2Did">Managing site workers, monthly financial closing, tax
-                  account closing, worker recruitment, and general administrative operations.</p>
-                <div class="timeline-learned-callout">
-                  <div class="timeline-learned-label" data-i18n="labelLearned">What I Learned:</div>
-                  <div class="timeline-learned-text" data-i18n="exp2Learned">Taught me how to handle site-level
-                    workforce management, monthly financial closings, and resolve operational problems under pressure.
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- 3. 4Geeks -->
-            <div class="timeline-entry">
-              <div class="timeline-marker"></div>
-              <div class="timeline-ledger-card">
-                <div class="timeline-top-row">
-                  <span class="timeline-role-title" data-i18n="exp3Role">Project Manager</span>
-                  <span class="timeline-date-pill" data-i18n="exp3Date">July 2025 – December 2025</span>
-                </div>
-                <div class="timeline-company-name" data-i18n="exp3Company">4Geeks</div>
-                <div class="timeline-did-label" data-i18n="labelDid">What I Did:</div>
-                <p class="timeline-did-text" data-i18n="exp3Did">Managed academy operations, restructured workflows,
-                  reduced unnecessary costs, improved staffing schedules, and followed up on daily execution.</p>
-                <div class="timeline-learned-callout">
-                  <div class="timeline-learned-label" data-i18n="labelLearned">What I Learned:</div>
-                  <div class="timeline-learned-text" data-i18n="exp3Learned">Taught me how operational restructuring,
-                    cost control, and proper schedule management can turn an operational deficit into monthly
-                    profitability.</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- ERA 2: Field Operations, Supply Chain & Logistics (2023 – 2025) -->
-        <div class="exp-era">
-          <div class="era-header">
-            <h3 class="era-title">
-              <span class="badge" style="font-size: 0.8rem;">Era 02</span>
-              <span data-i18n="expEra2Title">Field Operations, Supply Chain & Logistics</span>
-            </h3>
-            <span class="era-subtitle" data-i18n="expEra2Subtitle">Hands-on site supervision, procurement, vendor
-              negotiations, and distribution</span>
-          </div>
-
-          <div class="era-timeline">
-            <!-- 4. Creativa / Ather -->
-            <div class="timeline-entry">
-              <div class="timeline-marker"></div>
-              <div class="timeline-ledger-card">
-                <div class="timeline-top-row">
-                  <span class="timeline-role-title" data-i18n="exp4Role">Assistant Project & Event Coordinator</span>
-                  <span class="timeline-date-pill" data-i18n="exp4Date">2024 – 2025</span>
-                </div>
-                <div class="timeline-company-name" data-i18n="exp4Company">Creativa / Ather</div>
-                <div class="timeline-did-label" data-i18n="labelDid">What I Did:</div>
-                <p class="timeline-did-text" data-i18n="exp4Did">Coordinated training events, supported
-                  instructors/trainees, organized logistics, managed Dev Arena tracks/schedules/reports, and built
-                  simple web tools when needed.</p>
-                <div class="timeline-learned-callout">
-                  <div class="timeline-learned-label" data-i18n="labelLearned">What I Learned:</div>
-                  <div class="timeline-learned-text" data-i18n="exp4Learned">Taught me how to organize multi-track
-                    events, coordinate instructors and participants, manage event logistics, and keep complex schedules
-                    moving toward a deadline.</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- 5. Kellogg's Noodles -->
-            <div class="timeline-entry">
-              <div class="timeline-marker"></div>
-              <div class="timeline-ledger-card">
-                <div class="timeline-top-row">
-                  <span class="timeline-role-title" data-i18n="exp5Role">Marketing Agent</span>
-                  <span class="timeline-date-pill" data-i18n="exp5Date">November 2024 – January 2025</span>
-                </div>
-                <div class="timeline-company-name" data-i18n="exp5Company">Kellogg's Noodles Egypt</div>
-                <div class="timeline-did-label" data-i18n="labelDid">What I Did:</div>
-                <p class="timeline-did-text" data-i18n="exp5Did">Outdoor sales and field marketing across Minya
-                  governorate, supervised sales reps, supported field campaigns, and resolved customer issues.</p>
-                <div class="timeline-learned-callout">
-                  <div class="timeline-learned-label" data-i18n="labelLearned">What I Learned:</div>
-                  <div class="timeline-learned-text" data-i18n="exp5Learned">Taught me field-level sales operations, how
-                    field teams work on the ground, and how to handle customer problems directly.</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- 6. FabriGate -->
-            <div class="timeline-entry">
-              <div class="timeline-marker"></div>
-              <div class="timeline-ledger-card">
-                <div class="timeline-top-row">
-                  <span class="timeline-role-title" data-i18n="exp6Role">Purchasing Manager / Logistics Officer</span>
-                  <span class="timeline-date-pill" data-i18n="exp6Date">2024</span>
-                </div>
-                <div class="timeline-company-name" data-i18n="exp6Company">FabriGate</div>
-                <div class="timeline-did-label" data-i18n="labelDid">What I Did:</div>
-                <p class="timeline-did-text" data-i18n="exp6Did">Procurement, vendor sourcing, price negotiation,
-                  delivery tracking, route planning, and logistics coordination.</p>
-                <div class="timeline-learned-callout">
-                  <div class="timeline-learned-label" data-i18n="labelLearned">What I Learned:</div>
-                  <div class="timeline-learned-text" data-i18n="exp6Learned">Taught me the fundamentals of supply chain,
-                    vendor negotiation, shipment tracking, and delivery route planning.</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- 7. Military Production -->
-            <div class="timeline-entry">
-              <div class="timeline-marker"></div>
-              <div class="timeline-ledger-card">
-                <div class="timeline-top-row">
-                  <span class="timeline-role-title" data-i18n="exp7Role">Purchasing Manager / Site Supervisor</span>
-                  <span class="timeline-date-pill" data-i18n="exp7Date">2023 – 2024</span>
-                </div>
-                <div class="timeline-company-name" data-i18n="exp7Company">Military Production / Water Authority</div>
-                <div class="timeline-did-label" data-i18n="labelDid">What I Did:</div>
-                <p class="timeline-did-text" data-i18n="exp7Did">Site procurement, contractor supervision, progress
-                  monitoring, daily problem solving, and reporting to engineers.</p>
-                <div class="timeline-learned-callout">
-                  <div class="timeline-learned-label" data-i18n="labelLearned">What I Learned:</div>
-                  <div class="timeline-learned-text" data-i18n="exp7Learned">Taught me how to monitor site progress,
-                    manage contractor relationships, and report operational status clearly to engineering leadership.
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- 8. SES Solar Energy -->
-            <div class="timeline-entry">
-              <div class="timeline-marker"></div>
-              <div class="timeline-ledger-card">
-                <div class="timeline-top-row">
-                  <span class="timeline-role-title" data-i18n="exp8Role">Assistant Field Coordinator</span>
-                  <span class="timeline-date-pill" data-i18n="exp8Date">2023</span>
-                </div>
-                <div class="timeline-company-name" data-i18n="exp8Company">SES Solar Energy</div>
-                <div class="timeline-did-label" data-i18n="labelDid">What I Did:</div>
-                <p class="timeline-did-text" data-i18n="exp8Did">Supervised solar installation teams, tracked daily
-                  field tasks, coordinated site visits, prepared equipment, and reported operational delays.</p>
-                <div class="timeline-learned-callout">
-                  <div class="timeline-learned-label" data-i18n="labelLearned">What I Learned:</div>
-                  <div class="timeline-learned-text" data-i18n="exp8Learned">Taught me how technical field installations
-                    work, how to coordinate installation teams, and how to resolve site delays proactively.</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- 9. Nile Petroleum -->
-            <div class="timeline-entry">
-              <div class="timeline-marker"></div>
-              <div class="timeline-ledger-card">
-                <div class="timeline-top-row">
-                  <span class="timeline-role-title" data-i18n="exp9Role">Assistant Account Manager</span>
-                  <span class="timeline-date-pill" data-i18n="exp9Date">2023</span>
-                </div>
-                <div class="timeline-company-name" data-i18n="exp9Company">Nile Petroleum</div>
-                <div class="timeline-did-label" data-i18n="labelDid">What I Did:</div>
-                <p class="timeline-did-text" data-i18n="exp9Did">Monitored fuel station daily operations, payment
-                  collections, bank deposits, fuel truck dispatching, and daily operational logging.</p>
-                <div class="timeline-learned-callout">
-                  <div class="timeline-learned-label" data-i18n="labelLearned">What I Learned:</div>
-                  <div class="timeline-learned-text" data-i18n="exp9Learned">Taught me strict daily operational
-                    tracking, payment handling routines, and fuel logistics coordination.</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- ERA 3: Foundational Business & Technical Roots (2021 – 2023) -->
-        <div class="exp-era">
-          <div class="era-header">
-            <h3 class="era-title">
-              <span class="badge" style="font-size: 0.8rem;">Era 03</span>
-              <span data-i18n="expEra3Title">Foundational Business & Technical Roots</span>
-            </h3>
-            <span class="era-subtitle" data-i18n="expEra3Subtitle">Commercial operations, administrative leadership, and
-              software engineering training</span>
-          </div>
-
-          <div class="era-timeline">
-            <!-- 10. Yu-Gi Café -->
-            <div class="timeline-entry">
-              <div class="timeline-marker"></div>
-              <div class="timeline-ledger-card">
-                <div class="timeline-top-row">
-                  <span class="timeline-role-title" data-i18n="exp10Role">Business / Administrative Manager</span>
-                  <span class="timeline-date-pill" data-i18n="exp10Date">August 2022 – August 2023</span>
-                </div>
-                <div class="timeline-company-name" data-i18n="exp10Company">Yu-Gi Café</div>
-                <div class="timeline-did-label" data-i18n="labelDid">What I Did:</div>
-                <p class="timeline-did-text" data-i18n="exp10Did">Managed administrative and practical day-to-day
-                  operations for a family business, including staff, inventory, supplier relations, and cash
-                  transactions.</p>
-                <div class="timeline-learned-callout">
-                  <div class="timeline-learned-label" data-i18n="labelLearned">What I Learned:</div>
-                  <div class="timeline-learned-text" data-i18n="exp10Learned">Taught me hands-on business management,
-                    staff supervision, inventory control, and customer service execution.</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- 11. Cosmetics Business -->
-            <div class="timeline-entry">
-              <div class="timeline-marker"></div>
-              <div class="timeline-ledger-card">
-                <div class="timeline-top-row">
-                  <span class="timeline-role-title" data-i18n="exp11Role">Business Manager</span>
-                  <span class="timeline-date-pill" data-i18n="exp11Date">2021 – 2022</span>
-                </div>
-                <div class="timeline-company-name" data-i18n="exp11Company">Cosmetics & Perfume Business</div>
-                <div class="timeline-did-label" data-i18n="labelDid">What I Did:</div>
-                <p class="timeline-did-text" data-i18n="exp11Did">Managed day-to-day operations, product procurement,
-                  sales, and customer service for a cosmetics and perfume business.</p>
-                <div class="timeline-learned-callout">
-                  <div class="timeline-learned-label" data-i18n="labelLearned">What I Learned:</div>
-                  <div class="timeline-learned-text" data-i18n="exp11Learned">Taught me basic commercial operations,
-                    purchasing, sales management, and customer handling.</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- 12. Front-End Training -->
-            <div class="timeline-entry">
-              <div class="timeline-marker"></div>
-              <div class="timeline-ledger-card">
-                <div class="timeline-top-row">
-                  <span class="timeline-role-title" data-i18n="exp12Role">Front-End Intern / Trainee</span>
-                  <span class="timeline-date-pill" data-i18n="exp12Date">2021 – 2022</span>
-                </div>
-                <div class="timeline-company-name" data-i18n="exp12Company">Ather / EraaSoft</div>
-                <div class="timeline-did-label" data-i18n="labelDid">What I Did:</div>
-                <p class="timeline-did-text" data-i18n="exp12Did">Practical training in HTML, CSS, JavaScript,
-                  Bootstrap, React, Git, and responsive web design.</p>
-                <div class="timeline-learned-callout">
-                  <div class="timeline-learned-label" data-i18n="labelLearned">What I Learned:</div>
-                  <div class="timeline-learned-text" data-i18n="exp12Learned">Gave me a real foundation in software
-                    engineering, technical code structure, web technologies, and how developers build applications.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Career Direction Section (3-Step Connected Trajectory Flow) -->
   <section id="direction">
@@ -1259,8 +657,21 @@
 
   <!-- Footer -->
   <footer class="footer">
-    <div class="container">
-      <p>&copy; <span id="year">2026</span> <span data-i18n="footerRights">Omar Nour. All rights reserved.</span></p>
+    <div class="container footer-container">
+      <div class="footer-info">
+        <span class="footer-name">Omar Nour</span>
+        <span class="footer-divider">•</span>
+        <span class="footer-role" data-i18n="footerRole">Operations Manager</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/omar-a-nour-52382b329/" target="_blank" rel="noopener noreferrer"
+          class="footer-link">LinkedIn</a>
+        <a href="https://github.com/OmarNour9903" target="_blank" rel="noopener noreferrer"
+          class="footer-link">GitHub</a>
+        <a href="mailto:omarnour992003@gmail.com" class="footer-link">Email</a>
+      </div>
+      <p class="footer-copy">&copy; <span id="year">2026</span> <span data-i18n="footerRights">Omar Nour. All rights
+          reserved.</span></p>
     </div>
   </footer>
 
