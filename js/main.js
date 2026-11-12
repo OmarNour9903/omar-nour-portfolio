@@ -1,6 +1,6 @@
 /**
  * Omar Nour — Personal Professional Portfolio
- * Core Positioning: Operations Manager with a Software Engineering Background,
+ * Core Positioning: General Manager at Spotix with a Software Engineering Background,
  * building toward Technical Project Management.
  */
 
@@ -19,15 +19,14 @@ const translations = {
 
     // Hero Section
     heroTitle: "Omar Nour",
-    heroSubtitle: "Operations Manager",
+    heroSubtitle: "General Manager at Spotix",
     heroBadgeTech: "Software Engineering",
     heroHeadline: "Building Systems. Managing Operations. Solving Problems.",
-    heroParagraph: "I am an Operations Manager with a Software Engineering background. I focus on managing operations, organizing workflows, and leading teams, using my software background to understand technical systems and communicate effectively with developers.",
+    heroParagraph: "I am the General Manager at Spotix, with a Software Engineering background. I focus on managing operations, organizing workflows, and leading teams, using my software background to understand technical systems and communicate effectively with developers.",
     btnExplore: "Explore My Work",
     btnContact: "Contact Me",
     btnCV: "Download CV",
-    heroStatus: "Available for Operations & Project Leadership",
-    heroPhotoBadge: "Operations Manager • Egypt",
+    heroPhotoBadge: "General Manager • Egypt",
     heroSnapshotFocus: "Operations Management",
     heroSnapshotFocusLabel: "Primary Practice",
     heroSnapshotTech: "Software Engineering",
@@ -39,11 +38,11 @@ const translations = {
 
     // About Me Section
     aboutSectionTitle: "About Me",
-    aboutTagline: "Operations Manager with a Software Engineering background, building toward Technical Project Management",
+    aboutTagline: "General Manager at Spotix with a Software Engineering background, building toward Technical Project Management",
     aboutQuote: "“Operations succeed when systems are clear, teams are empowered, and technology eliminates friction.”",
     aboutP1: "I work primarily in Operations Management. Over time, I built practical experience across managing operations, teams, logistics, sales operations, process development, business management, and software development.",
     aboutP2: "My software engineering background gives me an understanding of how code is written, how software projects are built, and how technical teams operate. This helps me bridge daily business execution with technical requirements.",
-    aboutP3: "I am currently growing as an Operations Manager while developing stronger Project Management knowledge. My long-term direction is Technical Project Management—where I can understand business needs, communicate with developers, and help manage project execution from requirements to delivery.",
+    aboutP3: "I am currently growing as a General Manager while developing stronger Project Management knowledge. My long-term direction is Technical Project Management—where I can understand business needs, communicate with developers, and help manage project execution from requirements to delivery.",
     aboutBadge1Title: "Primary Focus",
     aboutBadge1Val: "Operations Management",
     aboutBadge2Title: "Technical Background",
@@ -320,10 +319,10 @@ const translations = {
     contactLocationVal: "Egypt",
     contactSocialsLabel: "Links",
 
-    footerRole: "Operations Manager",
+    footerRole: "General Manager at Spotix",
     footerRights: "Omar Nour. All rights reserved.",
     whatsappAria: "Chat on WhatsApp",
-    homePageTitle: "Omar Nour | Operations Manager & Software Background",
+    homePageTitle: "Omar Nour | General Manager at Spotix",
     projectsPageTitle: "Projects | Omar Nour",
     experiencePageTitle: "Experience | Omar Nour"
   },
@@ -342,15 +341,14 @@ const translations = {
 
     // Hero Section
     heroTitle: "عمر نور",
-    heroSubtitle: "إداري عمليات (Operations Manager)",
+    heroSubtitle: "المدير العام في Spotix",
     heroBadgeTech: "خلفية في هندسة البرمجيات",
     heroHeadline: "بناء الأنظمة. إدارة العمليات. حل المشكلات.",
-    heroParagraph: "أنا إداري عمليات بخلفية في هندسة البرمجيات. أركز على إدارة العمليات وتنظيم مسارات العمل وقيادة الفرق، مستفيداً من خلفيتي البرمجية لفهم الأنظمة التقنية والتواصل الفعّال مع المطورين.",
+    heroParagraph: "أنا المدير العام في Spotix، بخلفية في هندسة البرمجيات. أركز على إدارة العمليات وتنظيم مسارات العمل وقيادة الفرق، مستفيداً من خلفيتي البرمجية لفهم الأنظمة التقنية والتواصل الفعّال مع المطورين.",
     btnExplore: "استكشف أعمالي",
     btnContact: "تواصل معي",
     btnCV: "تحميل السيرة الذاتية",
-    heroStatus: "متاح لقيادة العمليات والمشروعات التقنية",
-    heroPhotoBadge: "إداري عمليات • مصر",
+    heroPhotoBadge: "مدير عام • مصر",
     heroSnapshotFocus: "إدارة العمليات",
     heroSnapshotFocusLabel: "المجال الأساسي",
     heroSnapshotTech: "هندسة البرمجيات",
@@ -362,11 +360,11 @@ const translations = {
 
     // About Me Section
     aboutSectionTitle: "عن عمر نور",
-    aboutTagline: "إداري عمليات بخلفية في هندسة البرمجيات، يتطور نحو إدارة المشروعات التقنية",
+    aboutTagline: "المدير العام في Spotix بخلفية في هندسة البرمجيات، يتطور نحو إدارة المشروعات التقنية",
     aboutQuote: "«تنجح العمليات عندما تكون الأنظمة واضحة، وفرق العمل مُمكَّنة، وتعمل التكنولوجيا على إزالة العوائق.»",
     aboutP1: "أعمل بشكل أساسي في مجال إدارة العمليات (Operations Management). بنيت خبرتي العملية عبر إدارة العمليات، الأفراد، اللوجستيات، عمليات المبيعات، تطوير الإجراءات، إدارة الأعمال، وتطوير البرمجيات.",
     aboutP2: "تمنحني خلفيتي في هندسة البرمجيات فهماً حقيقياً لكيفية كتابة الكود وبناء المشاريع البرمجية وطبيعة عمل الفرق التقنية. يساعدني ذلك في الربط بين التنفيذ التشغيلي اليومي والمتطلبات التقنية.",
-    aboutP3: "أعمل حالياً على النمو كـ Operations Manager بالتوازي مع تطوير معرفتي بإدارة المشروعات. توجّهي المستقبلي هو إدارة المشروعات التقنية (Technical Project Management)—حيث يمكنني فهم متطلبات الأعمال، والتواصل مع المطورين، ومتابعة تنفيذ المشروعات من مرحلة المتطلبات حتى التسليم.",
+    aboutP3: "أعمل حالياً على النمو كمدير عام بالتوازي مع تطوير معرفتي بإدارة المشروعات. توجّهي المستقبلي هو إدارة المشروعات التقنية (Technical Project Management)—حيث يمكنني فهم متطلبات الأعمال، والتواصل مع المطورين، ومتابعة تنفيذ المشروعات من مرحلة المتطلبات حتى التسليم.",
     aboutBadge1Title: "التركيز الحالي",
     aboutBadge1Val: "إدارة العمليات (Operations)",
     aboutBadge2Title: "الخلفية التقنية",
@@ -643,10 +641,10 @@ const translations = {
     contactLocationVal: "مصر",
     contactSocialsLabel: "المنصات والروابط",
 
-    footerRole: "إداري عمليات (Operations Manager)",
+    footerRole: "المدير العام في Spotix",
     footerRights: "عمر نور. جميع الحقوق محفوظة.",
     whatsappAria: "تواصل عبر واتساب",
-    homePageTitle: "عمر نور | إداري عمليات (Operations Manager)",
+    homePageTitle: "عمر نور | المدير العام في Spotix",
     projectsPageTitle: "المشاريع | عمر نور",
     experiencePageTitle: "الخبرات المهنية | عمر نور"
   }
@@ -775,8 +773,8 @@ function setLanguage(lang) {
         titleEl.textContent = lang === "ar" ? "الخبرات المهنية | عمر نور" : "Experience | Omar Nour";
       } else {
         titleEl.textContent = lang === "ar"
-          ? "عمر نور | إداري عمليات (Operations Manager)"
-          : "Omar Nour | Operations Manager & Software Background";
+          ? "عمر نور | المدير العام في Spotix"
+          : "Omar Nour | General Manager at Spotix";
       }
     }
   }
